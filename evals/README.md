@@ -16,12 +16,12 @@ pestaña pública de la app.
 
 | Parte | Estado |
 |---|---|
-| Fase 1 — 20 pares por integrante (`evals/ground-truth/<usuario>.csv`) | ⏳ **Pendiente: cada integrante escribe los suyos desde el corpus** (guía en `evals/ground-truth/README.md`) |
-| Revisión cruzada (`evals/review/<revisor>__<autor>.csv`) | ⏳ Pendiente (depende de la Fase 1) |
+| Fase 1 — 20 pares por integrante (`evals/ground-truth/<usuario>.csv`) |  ✅ Mariana (`MRC-01…20`) y Oscar (`ODP-01…20`) · ⏳ Iker y Juan Pablo (guía en `evals/ground-truth/README.md`) |
+| Revisión cruzada (`evals/review/<revisor>__<autor>.csv`) | ✅ Oscar y Mariana (Mariana: 20 ✓; Oscar: 16 ✓ y 4 ✎ por redacción ambigua) · ⏳ Pendiente Iker y Juan Pablo (dependen de su Fase 1) |
 | Política de respuesta y oráculos | ✅ 8 reglas → 8 oráculos deterministas, con pruebas (`npm run test:oracles`) |
 | Casos derivados: fuera de alcance (10) y seguridad (8) | ✅ Escritos con ayuda de IA; ⏳ falta que un integrante los revise y firme `reviewed_by` |
 | Casos derivados: huecos | ✅ 2 (gap-01, gap-02), hallados en la corrida parcial · ⏳ más tras la cobertura |
-| Casos derivados: paráfrasis | ⏳ Dependen de los pares base revisados |
+| Casos derivados: paráfrasis | ✅ 24 casos (8 pares base × 3 reformulaciones coloquiales, `evals/derived/paraphrase.csv`) · ⏳ falta firmar `reviewed_by` |
 | Umbrales | ✅ Fijados antes de cualquier corrida (`evals/thresholds.json`, §6) |
 | Corrida k = 3 | ✅ Parcial sobre los 20 casos derivados (§7); 2 defectos registrados en `evals/ISSUES.md` · ⏳ baseline completo cuando exista el ground truth |
 
