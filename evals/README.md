@@ -1,7 +1,6 @@
 # Eval set del asistente de IA de Jalisco Cómo Vamos
 
-**Grupo 502:** Mariana Ramírez Cervera (A01787819) · Juan Pablo Hernández López (A01645791) ·
-Oscar Orlando de la Paz Ibarra (A01644484) · Iker Gerson Ventura Araujo (A01832672)
+**Grupo 502:** Mariana Ramírez Cervera (A01787819) · Oscar Orlando de la Paz Ibarra (A01644484) · Iker Gerson Ventura Araujo (A01832672)
 
 **Sistema bajo prueba:** `POST /api/v1/assistant/ask` del backend JCV (Odoo 19 en Railway,
 `https://odoo-production-63cafea5.up.railway.app`). El asistente usa Claude para **planear** una
