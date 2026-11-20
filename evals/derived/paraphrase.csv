@@ -1,0 +1,25 @@
+id,category,origin,question,expected_answer,expected_figures,sources,expected_behavior,base_id,ai_generated,reviewed_by,notes
+par-01,paraphrase,paraphrase,oye q porcentaje de jovenes del area metropolitana dice estar satisfecho con su vida,,,,,MRC-01,yes,,reformulación coloquial de MRC-01
+par-02,paraphrase,paraphrase,¿cuántos chavos del AMG están a gusto con su vida?,,,,,MRC-01,yes,,reformulación coloquial de MRC-01
+par-03,paraphrase,paraphrase,satisfaccion con la vida jovenes amg,,,,,MRC-01,yes,,reformulación coloquial de MRC-01
+par-04,paraphrase,paraphrase,cuanto % de los chavos de zapopan se siente inseguro en su colonia,,,,,MRC-02,yes,,reformulación coloquial de MRC-02
+par-05,paraphrase,paraphrase,¿Qué tan inseguros se sienten los jóvenes de Zapopan en su colonia?,,,,,MRC-02,yes,,reformulación coloquial de MRC-02
+par-06,paraphrase,paraphrase,"inseguridad en la colonia, jovenes de zapopan",,,,,MRC-02,yes,,reformulación coloquial de MRC-02
+par-07,paraphrase,paraphrase,¿qué tantos jóvenes usan chatgpt o algo parecido todos los días?,,,,,MRC-04,yes,,reformulación coloquial de MRC-04
+par-08,paraphrase,paraphrase,cuantos chavos usan un chatbot de ia diario,,,,,MRC-04,yes,,reformulación coloquial de MRC-04
+par-09,paraphrase,paraphrase,uso diario de chatbots de inteligencia artificial en jovenes del amg,,,,,MRC-04,yes,,reformulación coloquial de MRC-04
+par-10,paraphrase,paraphrase,en zapopan o en guadalajara los jovenes tienen mejor salud mental?,,,,,MRC-07,yes,,reformulación coloquial de MRC-07
+par-11,paraphrase,paraphrase,compara la salud mental de los chavos de Zapopan y Guadalajara,,,,,MRC-07,yes,,reformulación coloquial de MRC-07
+par-12,paraphrase,paraphrase,"¿dónde están mejor de salud mental los jóvenes, zapopan o gdl?",,,,,MRC-07,yes,,reformulación coloquial de MRC-07
+par-13,paraphrase,paraphrase,los mas jovenes estudian y trabajan mas que los de 25 a 29?,,,,,MRC-12,yes,,reformulación coloquial de MRC-12
+par-14,paraphrase,paraphrase,"¿conforme crecen, los jóvenes siguen estudiando y trabajando a la vez?",,,,,MRC-12,yes,,reformulación coloquial de MRC-12
+par-15,paraphrase,paraphrase,como cambia con la edad el % de jovenes q estudian y trabajan al mismo tiempo,,,,,MRC-12,yes,,reformulación coloquial de MRC-12
+par-16,paraphrase,paraphrase,cuantos jovenes creen que algun dia van a tener casa propia,,,,,ODP-02,yes,,reformulación coloquial de ODP-02
+par-17,paraphrase,paraphrase,¿qué porcentaje de los chavos se imagina comprando su propia casa?,,,,,ODP-02,yes,,reformulación coloquial de ODP-02
+par-18,paraphrase,paraphrase,vivienda propia jovenes amg porcentage,,,,,ODP-02,yes,,reformulación coloquial de ODP-02
+par-19,paraphrase,paraphrase,"¿dónde es mejor la calidad de vida de los jóvenes, en tonala o tlajomulco?",,,,,ODP-08,yes,,reformulación coloquial de ODP-08
+par-20,paraphrase,paraphrase,tonala vs tlajomulco calidad de vida de los jovenes cual es mayor,,,,,ODP-08,yes,,reformulación coloquial de ODP-08
+par-21,paraphrase,paraphrase,"en que municipio los chavos dicen vivir mejor, Tonalá o Tlajomulco",,,,,ODP-08,yes,,reformulación coloquial de ODP-08
+par-22,paraphrase,paraphrase,"quien usa mas la ia todos los dias, hombres o mujeres?",,,,,ODP-10,yes,,reformulación coloquial de ODP-10
+par-23,paraphrase,paraphrase,¿las mujeres usan chatbots de IA a diario más que los hombres?,,,,,ODP-10,yes,,reformulación coloquial de ODP-10
+par-24,paraphrase,paraphrase,hombres vs mujeres uso diario de chatbot de IA,,,,,ODP-10,yes,,reformulación coloquial de ODP-10
