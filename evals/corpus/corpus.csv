@@ -1,0 +1,444 @@
+source_id,variable,indicator,dataset,stat,breakdown,group,category,value,n,moe_pp,ci_low,ci_high,flag
+Q_6:total,Q_6,Satisfacción con la vida (algo/muy satisfecho),amg_2026,top_box,Total AMG,Total AMG,Algo satisfecha(o) o Muy satisfecha(o),91.4,1205,3.32,89.35,93.08,
+Q_6:municipio:el_salto,Q_6,Satisfacción con la vida (algo/muy satisfecho),amg_2026,top_box,Municipio,El Salto,Algo satisfecha(o) o Muy satisfecha(o),94.53,23,21.87,75.8,98.96,small_sample
+Q_6:municipio:guadalajara,Q_6,Satisfacción con la vida (algo/muy satisfecho),amg_2026,top_box,Municipio,Guadalajara,Algo satisfecha(o) o Muy satisfecha(o),90.25,413,5.88,86.2,93.21,
+Q_6:municipio:san_pedro_tlaquepaque,Q_6,Satisfacción con la vida (algo/muy satisfecho),amg_2026,top_box,Municipio,San Pedro Tlaquepaque,Algo satisfecha(o) o Muy satisfecha(o),90.12,155,8.78,83.63,94.22,
+Q_6:municipio:tlajomulco_de_zuniga,Q_6,Satisfacción con la vida (algo/muy satisfecho),amg_2026,top_box,Municipio,Tlajomulco de Zúñiga,Algo satisfecha(o) o Muy satisfecha(o),92.87,78,11.45,84.6,96.86,
+Q_6:municipio:tonala,Q_6,Satisfacción con la vida (algo/muy satisfecho),amg_2026,top_box,Municipio,Tonalá,Algo satisfecha(o) o Muy satisfecha(o),91.32,96,10.84,83.21,95.71,
+Q_6:municipio:zapopan,Q_6,Satisfacción con la vida (algo/muy satisfecho),amg_2026,top_box,Municipio,Zapopan,Algo satisfecha(o) o Muy satisfecha(o),92.3,440,5.61,88.75,94.8,
+Q_6:municipio:vivo_fuera_del_amg,Q_6,Satisfacción con la vida (algo/muy satisfecho),amg_2026,top_box,Municipio,Vivo fuera del AMG,,,0,,,,suppressed
+Q_6:sexo:hombre,Q_6,Satisfacción con la vida (algo/muy satisfecho),amg_2026,top_box,Sexo,Hombre,Algo satisfecha(o) o Muy satisfecha(o),91.3,595,4.76,88.23,93.63,
+Q_6:sexo:mujer,Q_6,Satisfacción con la vida (algo/muy satisfecho),amg_2026,top_box,Sexo,Mujer,Algo satisfecha(o) o Muy satisfecha(o),91.43,607,4.63,88.47,93.68,
+Q_6:sexo:otra_cual,Q_6,Satisfacción con la vida (algo/muy satisfecho),amg_2026,top_box,Sexo,"Otra, ¿cuál?",,,3,59.93,,,suppressed
+Q_6:sexo:no_sabe_no_contesto,Q_6,Satisfacción con la vida (algo/muy satisfecho),amg_2026,top_box,Sexo,No sabe/No contestó,,,0,,,,suppressed
+Q_6:edad:15_a_19_anos,Q_6,Satisfacción con la vida (algo/muy satisfecho),amg_2026,top_box,Edad,15 a 19 años,Algo satisfecha(o) o Muy satisfecha(o),92.3,385,5.57,88.79,94.78,
+Q_6:edad:20_a_24_anos,Q_6,Satisfacción con la vida (algo/muy satisfecho),amg_2026,top_box,Edad,20 a 24 años,Algo satisfecha(o) o Muy satisfecha(o),91.93,402,6.02,88.02,94.64,
+Q_6:edad:25_a_29_anos,Q_6,Satisfacción con la vida (algo/muy satisfecho),amg_2026,top_box,Edad,25 a 29 años,Algo satisfecha(o) o Muy satisfecha(o),89.93,418,5.61,86.04,92.83,
+Q_6:estrato:alto,Q_6,Satisfacción con la vida (algo/muy satisfecho),amg_2026,top_box,Estrato,Alto,Algo satisfecha(o) o Muy satisfecha(o),90.56,401,4.94,87.26,93.07,
+Q_6:estrato:medio,Q_6,Satisfacción con la vida (algo/muy satisfecho),amg_2026,top_box,Estrato,Medio,Algo satisfecha(o) o Muy satisfecha(o),92.16,399,4.92,89.09,94.42,
+Q_6:estrato:bajo,Q_6,Satisfacción con la vida (algo/muy satisfecho),amg_2026,top_box,Estrato,Bajo,Algo satisfecha(o) o Muy satisfecha(o),91.24,405,4.91,88.06,93.64,
+Q_7:total,Q_7,Calidad de vida alta (algo/muy alta),amg_2026,top_box,Total AMG,Total AMG,Algo alta o Muy alta,68.43,1206,3.32,65.27,71.43,
+Q_7:municipio:el_salto,Q_7,Calidad de vida alta (algo/muy alta),amg_2026,top_box,Municipio,El Salto,Algo alta o Muy alta,83.07,23,21.87,61.82,93.7,small_sample
+Q_7:municipio:guadalajara,Q_7,Calidad de vida alta (algo/muy alta),amg_2026,top_box,Municipio,Guadalajara,Algo alta o Muy alta,67.67,413,5.88,61.97,72.9,
+Q_7:municipio:san_pedro_tlaquepaque,Q_7,Calidad de vida alta (algo/muy alta),amg_2026,top_box,Municipio,San Pedro Tlaquepaque,Algo alta o Muy alta,69.12,156,8.75,60.57,76.53,
+Q_7:municipio:tlajomulco_de_zuniga,Q_7,Calidad de vida alta (algo/muy alta),amg_2026,top_box,Municipio,Tlajomulco de Zúñiga,Algo alta o Muy alta,60.49,78,11.45,49.04,70.89,
+Q_7:municipio:tonala,Q_7,Calidad de vida alta (algo/muy alta),amg_2026,top_box,Municipio,Tonalá,Algo alta o Muy alta,71.45,96,10.84,60.87,80.11,
+Q_7:municipio:zapopan,Q_7,Calidad de vida alta (algo/muy alta),amg_2026,top_box,Municipio,Zapopan,Algo alta o Muy alta,69.36,440,5.61,63.97,74.27,
+Q_7:municipio:vivo_fuera_del_amg,Q_7,Calidad de vida alta (algo/muy alta),amg_2026,top_box,Municipio,Vivo fuera del AMG,,,0,,,,suppressed
+Q_7:sexo:hombre,Q_7,Calidad de vida alta (algo/muy alta),amg_2026,top_box,Sexo,Hombre,Algo alta o Muy alta,69.51,597,4.75,64.98,73.7,
+Q_7:sexo:mujer,Q_7,Calidad de vida alta (algo/muy alta),amg_2026,top_box,Sexo,Mujer,Algo alta o Muy alta,67.72,606,4.63,63.25,71.89,
+Q_7:sexo:otra_cual,Q_7,Calidad de vida alta (algo/muy alta),amg_2026,top_box,Sexo,"Otra, ¿cuál?",,,3,59.93,,,suppressed
+Q_7:sexo:no_sabe_no_contesto,Q_7,Calidad de vida alta (algo/muy alta),amg_2026,top_box,Sexo,No sabe/No contestó,,,0,,,,suppressed
+Q_7:edad:15_a_19_anos,Q_7,Calidad de vida alta (algo/muy alta),amg_2026,top_box,Edad,15 a 19 años,Algo alta o Muy alta,69.66,385,5.57,64.33,74.52,
+Q_7:edad:20_a_24_anos,Q_7,Calidad de vida alta (algo/muy alta),amg_2026,top_box,Edad,20 a 24 años,Algo alta o Muy alta,67.86,403,6.01,62.03,73.19,
+Q_7:edad:25_a_29_anos,Q_7,Calidad de vida alta (algo/muy alta),amg_2026,top_box,Edad,25 a 29 años,Algo alta o Muy alta,67.78,418,5.61,62.34,72.77,
+Q_7:estrato:alto,Q_7,Calidad de vida alta (algo/muy alta),amg_2026,top_box,Estrato,Alto,Algo alta o Muy alta,72.82,401,4.94,68.22,76.98,
+Q_7:estrato:medio,Q_7,Calidad de vida alta (algo/muy alta),amg_2026,top_box,Estrato,Medio,Algo alta o Muy alta,75.22,400,4.91,70.75,79.21,
+Q_7:estrato:bajo,Q_7,Calidad de vida alta (algo/muy alta),amg_2026,top_box,Estrato,Bajo,Algo alta o Muy alta,64.54,405,4.91,59.72,69.08,
+Q_8:total,Q_8,Felicidad (algo/muy feliz),amg_2026,top_box,Total AMG,Total AMG,Algo feliz o Muy feliz,88.44,1205,3.32,86.15,90.4,
+Q_8:municipio:el_salto,Q_8,Felicidad (algo/muy feliz),amg_2026,top_box,Municipio,El Salto,Algo feliz o Muy feliz,91.7,23,21.87,72.08,97.93,small_sample
+Q_8:municipio:guadalajara,Q_8,Felicidad (algo/muy feliz),amg_2026,top_box,Municipio,Guadalajara,Algo feliz o Muy feliz,86.34,412,5.89,81.79,89.88,
+Q_8:municipio:san_pedro_tlaquepaque,Q_8,Felicidad (algo/muy feliz),amg_2026,top_box,Municipio,San Pedro Tlaquepaque,Algo feliz o Muy feliz,91.57,156,8.75,85.39,95.28,
+Q_8:municipio:tlajomulco_de_zuniga,Q_8,Felicidad (algo/muy feliz),amg_2026,top_box,Municipio,Tlajomulco de Zúñiga,Algo feliz o Muy feliz,89.88,78,11.45,80.87,94.91,
+Q_8:municipio:tonala,Q_8,Felicidad (algo/muy feliz),amg_2026,top_box,Municipio,Tonalá,Algo feliz o Muy feliz,81.88,95,10.91,72.1,88.77,
+Q_8:municipio:zapopan,Q_8,Felicidad (algo/muy feliz),amg_2026,top_box,Municipio,Zapopan,Algo feliz o Muy feliz,90.37,441,5.6,86.54,93.19,
+Q_8:municipio:vivo_fuera_del_amg,Q_8,Felicidad (algo/muy feliz),amg_2026,top_box,Municipio,Vivo fuera del AMG,,,0,,,,suppressed
+Q_8:sexo:hombre,Q_8,Felicidad (algo/muy feliz),amg_2026,top_box,Sexo,Hombre,Algo feliz o Muy feliz,87.84,595,4.76,84.38,90.62,
+Q_8:sexo:mujer,Q_8,Felicidad (algo/muy feliz),amg_2026,top_box,Sexo,Mujer,Algo feliz o Muy feliz,88.97,607,4.63,85.73,91.54,
+Q_8:sexo:otra_cual,Q_8,Felicidad (algo/muy feliz),amg_2026,top_box,Sexo,"Otra, ¿cuál?",,,3,59.93,,,suppressed
+Q_8:sexo:no_sabe_no_contesto,Q_8,Felicidad (algo/muy feliz),amg_2026,top_box,Sexo,No sabe/No contestó,,,0,,,,suppressed
+Q_8:edad:15_a_19_anos,Q_8,Felicidad (algo/muy feliz),amg_2026,top_box,Edad,15 a 19 años,Algo feliz o Muy feliz,87.94,386,5.56,83.84,91.1,
+Q_8:edad:20_a_24_anos,Q_8,Felicidad (algo/muy feliz),amg_2026,top_box,Edad,20 a 24 años,Algo feliz o Muy feliz,86.85,403,6.01,82.26,90.4,
+Q_8:edad:25_a_29_anos,Q_8,Felicidad (algo/muy feliz),amg_2026,top_box,Edad,25 a 29 años,Algo feliz o Muy feliz,90.63,416,5.63,86.83,93.42,
+Q_8:estrato:alto,Q_8,Felicidad (algo/muy feliz),amg_2026,top_box,Estrato,Alto,Algo feliz o Muy feliz,89.59,401,4.94,86.18,92.24,
+Q_8:estrato:medio,Q_8,Felicidad (algo/muy feliz),amg_2026,top_box,Estrato,Medio,Algo feliz o Muy feliz,89.08,399,4.92,85.62,91.78,
+Q_8:estrato:bajo,Q_8,Felicidad (algo/muy feliz),amg_2026,top_box,Estrato,Bajo,Algo feliz o Muy feliz,87.93,405,4.91,84.36,90.77,
+Q_10:total,Q_10,Satisfacción con la vida afectiva,amg_2026,top_box,Total AMG,Total AMG,Algo satisfecha(o) o Muy satisfecha(o),79.24,1207,3.31,76.43,81.8,
+Q_10:municipio:el_salto,Q_10,Satisfacción con la vida afectiva,amg_2026,top_box,Municipio,El Salto,Algo satisfecha(o) o Muy satisfecha(o),81.04,23,21.87,59.58,92.53,small_sample
+Q_10:municipio:guadalajara,Q_10,Satisfacción con la vida afectiva,amg_2026,top_box,Municipio,Guadalajara,Algo satisfecha(o) o Muy satisfecha(o),79.21,413,5.88,74.06,83.57,
+Q_10:municipio:san_pedro_tlaquepaque,Q_10,Satisfacción con la vida afectiva,amg_2026,top_box,Municipio,San Pedro Tlaquepaque,Algo satisfecha(o) o Muy satisfecha(o),73.83,156,8.75,65.52,80.73,
+Q_10:municipio:tlajomulco_de_zuniga,Q_10,Satisfacción con la vida afectiva,amg_2026,top_box,Municipio,Tlajomulco de Zúñiga,Algo satisfecha(o) o Muy satisfecha(o),82.19,78,11.45,71.89,89.28,
+Q_10:municipio:tonala,Q_10,Satisfacción con la vida afectiva,amg_2026,top_box,Municipio,Tonalá,Algo satisfecha(o) o Muy satisfecha(o),79.0,96,10.84,68.97,86.43,
+Q_10:municipio:zapopan,Q_10,Satisfacción con la vida afectiva,amg_2026,top_box,Municipio,Zapopan,Algo satisfecha(o) o Muy satisfecha(o),80.6,441,5.6,75.8,84.64,
+Q_10:municipio:vivo_fuera_del_amg,Q_10,Satisfacción con la vida afectiva,amg_2026,top_box,Municipio,Vivo fuera del AMG,,,0,,,,suppressed
+Q_10:sexo:hombre,Q_10,Satisfacción con la vida afectiva,amg_2026,top_box,Sexo,Hombre,Algo satisfecha(o) o Muy satisfecha(o),80.57,597,4.75,76.54,84.05,
+Q_10:sexo:mujer,Q_10,Satisfacción con la vida afectiva,amg_2026,top_box,Sexo,Mujer,Algo satisfecha(o) o Muy satisfecha(o),77.87,607,4.63,73.8,81.47,
+Q_10:sexo:otra_cual,Q_10,Satisfacción con la vida afectiva,amg_2026,top_box,Sexo,"Otra, ¿cuál?",,,3,59.93,,,suppressed
+Q_10:sexo:no_sabe_no_contesto,Q_10,Satisfacción con la vida afectiva,amg_2026,top_box,Sexo,No sabe/No contestó,,,0,,,,suppressed
+Q_10:edad:15_a_19_anos,Q_10,Satisfacción con la vida afectiva,amg_2026,top_box,Edad,15 a 19 años,Algo satisfecha(o) o Muy satisfecha(o),78.78,386,5.56,73.9,82.96,
+Q_10:edad:20_a_24_anos,Q_10,Satisfacción con la vida afectiva,amg_2026,top_box,Edad,20 a 24 años,Algo satisfecha(o) o Muy satisfecha(o),79.83,403,6.01,74.59,84.21,
+Q_10:edad:25_a_29_anos,Q_10,Satisfacción con la vida afectiva,amg_2026,top_box,Edad,25 a 29 años,Algo satisfecha(o) o Muy satisfecha(o),79.1,418,5.61,74.19,83.29,
+Q_10:estrato:alto,Q_10,Satisfacción con la vida afectiva,amg_2026,top_box,Estrato,Alto,Algo satisfecha(o) o Muy satisfecha(o),83.96,401,4.94,80.0,87.26,
+Q_10:estrato:medio,Q_10,Satisfacción con la vida afectiva,amg_2026,top_box,Estrato,Medio,Algo satisfecha(o) o Muy satisfecha(o),75.57,400,4.91,71.12,79.53,
+Q_10:estrato:bajo,Q_10,Satisfacción con la vida afectiva,amg_2026,top_box,Estrato,Bajo,Algo satisfecha(o) o Muy satisfecha(o),79.87,406,4.91,75.65,83.51,
+Q_17:total,Q_17,Educación superior: mucha/total importancia,amg_2026,top_box,Total AMG,Total AMG,Mucha importancia o Total importancia,80.61,1207,3.31,77.85,83.09,
+Q_17:municipio:el_salto,Q_17,Educación superior: mucha/total importancia,amg_2026,top_box,Municipio,El Salto,Mucha importancia o Total importancia,76.02,23,21.87,54.23,89.45,small_sample
+Q_17:municipio:guadalajara,Q_17,Educación superior: mucha/total importancia,amg_2026,top_box,Municipio,Guadalajara,Mucha importancia o Total importancia,79.59,413,5.88,74.46,83.91,
+Q_17:municipio:san_pedro_tlaquepaque,Q_17,Educación superior: mucha/total importancia,amg_2026,top_box,Municipio,San Pedro Tlaquepaque,Mucha importancia o Total importancia,75.83,156,8.75,67.65,82.48,
+Q_17:municipio:tlajomulco_de_zuniga,Q_17,Educación superior: mucha/total importancia,amg_2026,top_box,Municipio,Tlajomulco de Zúñiga,Mucha importancia o Total importancia,81.77,78,11.45,71.43,88.95,
+Q_17:municipio:tonala,Q_17,Educación superior: mucha/total importancia,amg_2026,top_box,Municipio,Tonalá,Mucha importancia o Total importancia,82.74,96,10.84,73.13,89.42,
+Q_17:municipio:zapopan,Q_17,Educación superior: mucha/total importancia,amg_2026,top_box,Municipio,Zapopan,Mucha importancia o Total importancia,82.88,441,5.6,78.25,86.68,
+Q_17:municipio:vivo_fuera_del_amg,Q_17,Educación superior: mucha/total importancia,amg_2026,top_box,Municipio,Vivo fuera del AMG,,,0,,,,suppressed
+Q_17:sexo:hombre,Q_17,Educación superior: mucha/total importancia,amg_2026,top_box,Sexo,Hombre,Mucha importancia o Total importancia,73.32,597,4.75,68.92,77.3,
+Q_17:sexo:mujer,Q_17,Educación superior: mucha/total importancia,amg_2026,top_box,Sexo,Mujer,Mucha importancia o Total importancia,87.89,607,4.63,84.54,90.59,
+Q_17:sexo:otra_cual,Q_17,Educación superior: mucha/total importancia,amg_2026,top_box,Sexo,"Otra, ¿cuál?",,,3,59.93,,,suppressed
+Q_17:sexo:no_sabe_no_contesto,Q_17,Educación superior: mucha/total importancia,amg_2026,top_box,Sexo,No sabe/No contestó,,,0,,,,suppressed
+Q_17:edad:15_a_19_anos,Q_17,Educación superior: mucha/total importancia,amg_2026,top_box,Edad,15 a 19 años,Mucha importancia o Total importancia,80.85,386,5.56,76.11,84.84,
+Q_17:edad:20_a_24_anos,Q_17,Educación superior: mucha/total importancia,amg_2026,top_box,Edad,20 a 24 años,Mucha importancia o Total importancia,79.78,403,6.01,74.54,84.17,
+Q_17:edad:25_a_29_anos,Q_17,Educación superior: mucha/total importancia,amg_2026,top_box,Edad,25 a 29 años,Mucha importancia o Total importancia,81.22,418,5.61,76.46,85.21,
+Q_17:estrato:alto,Q_17,Educación superior: mucha/total importancia,amg_2026,top_box,Estrato,Alto,Mucha importancia o Total importancia,84.26,401,4.94,80.33,87.53,
+Q_17:estrato:medio,Q_17,Educación superior: mucha/total importancia,amg_2026,top_box,Estrato,Medio,Mucha importancia o Total importancia,79.27,400,4.91,75.02,82.97,
+Q_17:estrato:bajo,Q_17,Educación superior: mucha/total importancia,amg_2026,top_box,Estrato,Bajo,Mucha importancia o Total importancia,80.43,406,4.91,76.25,84.02,
+Q_20:total,Q_20,Satisfacción con el tiempo libre,amg_2026,top_box,Total AMG,Total AMG,Algo satisfecha(o) o Muy satisfecha(o),78.8,1207,3.31,75.97,81.38,
+Q_20:municipio:el_salto,Q_20,Satisfacción con el tiempo libre,amg_2026,top_box,Municipio,El Salto,Algo satisfecha(o) o Muy satisfecha(o),73.64,23,21.87,51.79,87.9,small_sample
+Q_20:municipio:guadalajara,Q_20,Satisfacción con el tiempo libre,amg_2026,top_box,Municipio,Guadalajara,Algo satisfecha(o) o Muy satisfecha(o),79.54,413,5.88,74.41,83.86,
+Q_20:municipio:san_pedro_tlaquepaque,Q_20,Satisfacción con el tiempo libre,amg_2026,top_box,Municipio,San Pedro Tlaquepaque,Algo satisfecha(o) o Muy satisfecha(o),73.54,156,8.75,65.21,80.48,
+Q_20:municipio:tlajomulco_de_zuniga,Q_20,Satisfacción con el tiempo libre,amg_2026,top_box,Municipio,Tlajomulco de Zúñiga,Algo satisfecha(o) o Muy satisfecha(o),77.29,78,11.45,66.48,85.38,
+Q_20:municipio:tonala,Q_20,Satisfacción con el tiempo libre,amg_2026,top_box,Municipio,Tonalá,Algo satisfecha(o) o Muy satisfecha(o),74.95,96,10.84,64.58,83.08,
+Q_20:municipio:zapopan,Q_20,Satisfacción con el tiempo libre,amg_2026,top_box,Municipio,Zapopan,Algo satisfecha(o) o Muy satisfecha(o),82.55,441,5.6,77.9,86.39,
+Q_20:municipio:vivo_fuera_del_amg,Q_20,Satisfacción con el tiempo libre,amg_2026,top_box,Municipio,Vivo fuera del AMG,,,0,,,,suppressed
+Q_20:sexo:hombre,Q_20,Satisfacción con el tiempo libre,amg_2026,top_box,Sexo,Hombre,Algo satisfecha(o) o Muy satisfecha(o),83.29,597,4.75,79.45,86.54,
+Q_20:sexo:mujer,Q_20,Satisfacción con el tiempo libre,amg_2026,top_box,Sexo,Mujer,Algo satisfecha(o) o Muy satisfecha(o),74.36,607,4.63,70.12,78.18,
+Q_20:sexo:otra_cual,Q_20,Satisfacción con el tiempo libre,amg_2026,top_box,Sexo,"Otra, ¿cuál?",,,3,59.93,,,suppressed
+Q_20:sexo:no_sabe_no_contesto,Q_20,Satisfacción con el tiempo libre,amg_2026,top_box,Sexo,No sabe/No contestó,,,0,,,,suppressed
+Q_20:edad:15_a_19_anos,Q_20,Satisfacción con el tiempo libre,amg_2026,top_box,Edad,15 a 19 años,Algo satisfecha(o) o Muy satisfecha(o),82.81,386,5.56,78.22,86.6,
+Q_20:edad:20_a_24_anos,Q_20,Satisfacción con el tiempo libre,amg_2026,top_box,Edad,20 a 24 años,Algo satisfecha(o) o Muy satisfecha(o),76.51,403,6.01,71.06,81.21,
+Q_20:edad:25_a_29_anos,Q_20,Satisfacción con el tiempo libre,amg_2026,top_box,Edad,25 a 29 años,Algo satisfecha(o) o Muy satisfecha(o),77.12,418,5.61,72.09,81.48,
+Q_20:estrato:alto,Q_20,Satisfacción con el tiempo libre,amg_2026,top_box,Estrato,Alto,Algo satisfecha(o) o Muy satisfecha(o),79.57,401,4.94,75.31,83.27,
+Q_20:estrato:medio,Q_20,Satisfacción con el tiempo libre,amg_2026,top_box,Estrato,Medio,Algo satisfecha(o) o Muy satisfecha(o),78.82,400,4.91,74.54,82.55,
+Q_20:estrato:bajo,Q_20,Satisfacción con el tiempo libre,amg_2026,top_box,Estrato,Bajo,Algo satisfecha(o) o Muy satisfecha(o),78.63,406,4.91,74.35,82.37,
+Q_25:total,Q_25,Usa chatbot de IA a diario (1 o varias veces al día),amg_2026,top_box,Total AMG,Total AMG,Aproximadamente una vez al día o Varias veces al día,17.73,1207,3.31,15.34,20.4,
+Q_25:municipio:el_salto,Q_25,Usa chatbot de IA a diario (1 o varias veces al día),amg_2026,top_box,Municipio,El Salto,Aproximadamente una vez al día o Varias veces al día,8.89,23,21.87,2.32,28.67,small_sample
+Q_25:municipio:guadalajara,Q_25,Usa chatbot de IA a diario (1 o varias veces al día),amg_2026,top_box,Municipio,Guadalajara,Aproximadamente una vez al día o Varias veces al día,16.19,413,5.88,12.33,20.98,
+Q_25:municipio:san_pedro_tlaquepaque,Q_25,Usa chatbot de IA a diario (1 o varias veces al día),amg_2026,top_box,Municipio,San Pedro Tlaquepaque,Aproximadamente una vez al día o Varias veces al día,19.76,156,8.75,13.73,27.57,
+Q_25:municipio:tlajomulco_de_zuniga,Q_25,Usa chatbot de IA a diario (1 o varias veces al día),amg_2026,top_box,Municipio,Tlajomulco de Zúñiga,Aproximadamente una vez al día o Varias veces al día,8.65,78,11.45,4.11,17.32,
+Q_25:municipio:tonala,Q_25,Usa chatbot de IA a diario (1 o varias veces al día),amg_2026,top_box,Municipio,Tonalá,Aproximadamente una vez al día o Varias veces al día,19.42,96,10.84,12.3,29.29,
+Q_25:municipio:zapopan,Q_25,Usa chatbot de IA a diario (1 o varias veces al día),amg_2026,top_box,Municipio,Zapopan,Aproximadamente una vez al día o Varias veces al día,21.34,441,5.6,17.12,26.27,
+Q_25:municipio:vivo_fuera_del_amg,Q_25,Usa chatbot de IA a diario (1 o varias veces al día),amg_2026,top_box,Municipio,Vivo fuera del AMG,,,0,,,,suppressed
+Q_25:sexo:hombre,Q_25,Usa chatbot de IA a diario (1 o varias veces al día),amg_2026,top_box,Sexo,Hombre,Aproximadamente una vez al día o Varias veces al día,19.02,597,4.75,15.57,23.02,
+Q_25:sexo:mujer,Q_25,Usa chatbot de IA a diario (1 o varias veces al día),amg_2026,top_box,Sexo,Mujer,Aproximadamente una vez al día o Varias veces al día,16.56,607,4.63,13.4,20.28,
+Q_25:sexo:otra_cual,Q_25,Usa chatbot de IA a diario (1 o varias veces al día),amg_2026,top_box,Sexo,"Otra, ¿cuál?",,,3,59.93,,,suppressed
+Q_25:sexo:no_sabe_no_contesto,Q_25,Usa chatbot de IA a diario (1 o varias veces al día),amg_2026,top_box,Sexo,No sabe/No contestó,,,0,,,,suppressed
+Q_25:edad:15_a_19_anos,Q_25,Usa chatbot de IA a diario (1 o varias veces al día),amg_2026,top_box,Edad,15 a 19 años,Aproximadamente una vez al día o Varias veces al día,19.72,386,5.56,15.68,24.51,
+Q_25:edad:20_a_24_anos,Q_25,Usa chatbot de IA a diario (1 o varias veces al día),amg_2026,top_box,Edad,20 a 24 años,Aproximadamente una vez al día o Varias veces al día,17.67,403,6.01,13.55,22.71,
+Q_25:edad:25_a_29_anos,Q_25,Usa chatbot de IA a diario (1 o varias veces al día),amg_2026,top_box,Edad,25 a 29 años,Aproximadamente una vez al día o Varias veces al día,15.77,418,5.61,12.11,20.29,
+Q_25:estrato:alto,Q_25,Usa chatbot de IA a diario (1 o varias veces al día),amg_2026,top_box,Estrato,Alto,Aproximadamente una vez al día o Varias veces al día,23.55,401,4.94,19.63,27.99,
+Q_25:estrato:medio,Q_25,Usa chatbot de IA a diario (1 o varias veces al día),amg_2026,top_box,Estrato,Medio,Aproximadamente una vez al día o Varias veces al día,20.47,400,4.91,16.8,24.71,
+Q_25:estrato:bajo,Q_25,Usa chatbot de IA a diario (1 o varias veces al día),amg_2026,top_box,Estrato,Bajo,Aproximadamente una vez al día o Varias veces al día,15.32,406,4.91,12.11,19.18,
+Q_32:total,Q_32,Al hogar no le alcanza el ingreso,amg_2026,top_box,Total AMG,Total AMG,No les alcanza y tienen dificultades o No les alcanza y tienen grandes dificultades,8.01,1207,3.31,6.39,10.0,
+Q_32:municipio:el_salto,Q_32,Al hogar no le alcanza el ingreso,amg_2026,top_box,Municipio,El Salto,No les alcanza y tienen dificultades o No les alcanza y tienen grandes dificultades,5.93,23,21.87,1.19,24.81,small_sample
+Q_32:municipio:guadalajara,Q_32,Al hogar no le alcanza el ingreso,amg_2026,top_box,Municipio,Guadalajara,No les alcanza y tienen dificultades o No les alcanza y tienen grandes dificultades,7.08,413,5.88,4.61,10.71,
+Q_32:municipio:san_pedro_tlaquepaque,Q_32,Al hogar no le alcanza el ingreso,amg_2026,top_box,Municipio,San Pedro Tlaquepaque,No les alcanza y tienen dificultades o No les alcanza y tienen grandes dificultades,8.88,156,8.75,5.05,15.16,
+Q_32:municipio:tlajomulco_de_zuniga,Q_32,Al hogar no le alcanza el ingreso,amg_2026,top_box,Municipio,Tlajomulco de Zúñiga,No les alcanza y tienen dificultades o No les alcanza y tienen grandes dificultades,9.93,78,11.45,4.96,18.9,
+Q_32:municipio:tonala,Q_32,Al hogar no le alcanza el ingreso,amg_2026,top_box,Municipio,Tonalá,No les alcanza y tienen dificultades o No les alcanza y tienen grandes dificultades,8.17,96,10.84,3.95,16.15,
+Q_32:municipio:zapopan,Q_32,Al hogar no le alcanza el ingreso,amg_2026,top_box,Municipio,Zapopan,No les alcanza y tienen dificultades o No les alcanza y tienen grandes dificultades,7.95,441,5.6,5.41,11.53,
+Q_32:municipio:vivo_fuera_del_amg,Q_32,Al hogar no le alcanza el ingreso,amg_2026,top_box,Municipio,Vivo fuera del AMG,,,0,,,,suppressed
+Q_32:sexo:hombre,Q_32,Al hogar no le alcanza el ingreso,amg_2026,top_box,Sexo,Hombre,No les alcanza y tienen dificultades o No les alcanza y tienen grandes dificultades,7.29,597,4.75,5.18,10.16,
+Q_32:sexo:mujer,Q_32,Al hogar no le alcanza el ingreso,amg_2026,top_box,Sexo,Mujer,No les alcanza y tienen dificultades o No les alcanza y tienen grandes dificultades,8.8,607,4.63,6.52,11.79,
+Q_32:sexo:otra_cual,Q_32,Al hogar no le alcanza el ingreso,amg_2026,top_box,Sexo,"Otra, ¿cuál?",,,3,59.93,,,suppressed
+Q_32:sexo:no_sabe_no_contesto,Q_32,Al hogar no le alcanza el ingreso,amg_2026,top_box,Sexo,No sabe/No contestó,,,0,,,,suppressed
+Q_32:edad:15_a_19_anos,Q_32,Al hogar no le alcanza el ingreso,amg_2026,top_box,Edad,15 a 19 años,No les alcanza y tienen dificultades o No les alcanza y tienen grandes dificultades,10.03,386,5.56,7.16,13.87,
+Q_32:edad:20_a_24_anos,Q_32,Al hogar no le alcanza el ingreso,amg_2026,top_box,Edad,20 a 24 años,No les alcanza y tienen dificultades o No les alcanza y tienen grandes dificultades,6.82,403,6.01,4.36,10.5,
+Q_32:edad:25_a_29_anos,Q_32,Al hogar no le alcanza el ingreso,amg_2026,top_box,Edad,25 a 29 años,No les alcanza y tienen dificultades o No les alcanza y tienen grandes dificultades,7.21,418,5.61,4.81,10.67,
+Q_32:estrato:alto,Q_32,Al hogar no le alcanza el ingreso,amg_2026,top_box,Estrato,Alto,No les alcanza y tienen dificultades o No les alcanza y tienen grandes dificultades,6.27,401,4.94,4.27,9.11,
+Q_32:estrato:medio,Q_32,Al hogar no le alcanza el ingreso,amg_2026,top_box,Estrato,Medio,No les alcanza y tienen dificultades o No les alcanza y tienen grandes dificultades,10.08,400,4.91,7.49,13.43,
+Q_32:estrato:bajo,Q_32,Al hogar no le alcanza el ingreso,amg_2026,top_box,Estrato,Bajo,No les alcanza y tienen dificultades o No les alcanza y tienen grandes dificultades,7.47,406,4.91,5.27,10.47,
+Q_34:total,Q_34,Vive con familiares,amg_2026,top_box,Total AMG,Total AMG,Familiares,84.58,1207,3.31,82.03,86.82,
+Q_34:municipio:el_salto,Q_34,Vive con familiares,amg_2026,top_box,Municipio,El Salto,Familiares,66.96,23,21.87,45.19,83.28,small_sample
+Q_34:municipio:guadalajara,Q_34,Vive con familiares,amg_2026,top_box,Municipio,Guadalajara,Familiares,85.65,413,5.88,81.05,89.29,
+Q_34:municipio:san_pedro_tlaquepaque,Q_34,Vive con familiares,amg_2026,top_box,Municipio,San Pedro Tlaquepaque,Familiares,83.74,156,8.75,76.31,89.18,
+Q_34:municipio:tlajomulco_de_zuniga,Q_34,Vive con familiares,amg_2026,top_box,Municipio,Tlajomulco de Zúñiga,Familiares,85.33,78,11.45,75.48,91.66,
+Q_34:municipio:tonala,Q_34,Vive con familiares,amg_2026,top_box,Municipio,Tonalá,Familiares,90.24,96,10.84,81.89,94.98,
+Q_34:municipio:zapopan,Q_34,Vive con familiares,amg_2026,top_box,Municipio,Zapopan,Familiares,83.2,441,5.6,78.6,86.97,
+Q_34:municipio:vivo_fuera_del_amg,Q_34,Vive con familiares,amg_2026,top_box,Municipio,Vivo fuera del AMG,,,0,,,,suppressed
+Q_34:sexo:hombre,Q_34,Vive con familiares,amg_2026,top_box,Sexo,Hombre,Familiares,82.2,597,4.75,78.28,85.54,
+Q_34:sexo:mujer,Q_34,Vive con familiares,amg_2026,top_box,Sexo,Mujer,Familiares,86.88,607,4.63,83.44,89.7,
+Q_34:sexo:otra_cual,Q_34,Vive con familiares,amg_2026,top_box,Sexo,"Otra, ¿cuál?",,,3,59.93,,,suppressed
+Q_34:sexo:no_sabe_no_contesto,Q_34,Vive con familiares,amg_2026,top_box,Sexo,No sabe/No contestó,,,0,,,,suppressed
+Q_34:edad:15_a_19_anos,Q_34,Vive con familiares,amg_2026,top_box,Edad,15 a 19 años,Familiares,95.07,386,5.56,92.07,96.98,
+Q_34:edad:20_a_24_anos,Q_34,Vive con familiares,amg_2026,top_box,Edad,20 a 24 años,Familiares,85.23,403,6.01,80.46,88.99,
+Q_34:edad:25_a_29_anos,Q_34,Vive con familiares,amg_2026,top_box,Edad,25 a 29 años,Familiares,73.23,418,5.61,68.0,77.89,
+Q_34:estrato:alto,Q_34,Vive con familiares,amg_2026,top_box,Estrato,Alto,Familiares,80.08,401,4.94,75.85,83.73,
+Q_34:estrato:medio,Q_34,Vive con familiares,amg_2026,top_box,Estrato,Medio,Familiares,85.77,400,4.91,81.99,88.86,
+Q_34:estrato:bajo,Q_34,Vive con familiares,amg_2026,top_box,Estrato,Bajo,Familiares,85.0,406,4.91,81.16,88.17,
+Q_35:total,Q_35,Se ve adquiriendo vivienda propia,amg_2026,top_box,Total AMG,Total AMG,Sí,87.62,1207,3.31,85.28,89.64,
+Q_35:municipio:el_salto,Q_35,Se ve adquiriendo vivienda propia,amg_2026,top_box,Municipio,El Salto,Sí,94.53,23,21.87,75.8,98.96,small_sample
+Q_35:municipio:guadalajara,Q_35,Se ve adquiriendo vivienda propia,amg_2026,top_box,Municipio,Guadalajara,Sí,87.61,413,5.88,83.21,90.98,
+Q_35:municipio:san_pedro_tlaquepaque,Q_35,Se ve adquiriendo vivienda propia,amg_2026,top_box,Municipio,San Pedro Tlaquepaque,Sí,81.11,156,8.75,73.38,87.0,
+Q_35:municipio:tlajomulco_de_zuniga,Q_35,Se ve adquiriendo vivienda propia,amg_2026,top_box,Municipio,Tlajomulco de Zúñiga,Sí,92.34,78,11.45,83.92,96.53,
+Q_35:municipio:tonala,Q_35,Se ve adquiriendo vivienda propia,amg_2026,top_box,Municipio,Tonalá,Sí,90.91,96,10.84,82.71,95.44,
+Q_35:municipio:zapopan,Q_35,Se ve adquiriendo vivienda propia,amg_2026,top_box,Municipio,Zapopan,Sí,87.35,441,5.6,83.15,90.61,
+Q_35:municipio:vivo_fuera_del_amg,Q_35,Se ve adquiriendo vivienda propia,amg_2026,top_box,Municipio,Vivo fuera del AMG,,,0,,,,suppressed
+Q_35:sexo:hombre,Q_35,Se ve adquiriendo vivienda propia,amg_2026,top_box,Sexo,Hombre,Sí,88.82,597,4.75,85.47,91.47,
+Q_35:sexo:mujer,Q_35,Se ve adquiriendo vivienda propia,amg_2026,top_box,Sexo,Mujer,Sí,86.74,607,4.63,83.28,89.57,
+Q_35:sexo:otra_cual,Q_35,Se ve adquiriendo vivienda propia,amg_2026,top_box,Sexo,"Otra, ¿cuál?",,,3,59.93,,,suppressed
+Q_35:sexo:no_sabe_no_contesto,Q_35,Se ve adquiriendo vivienda propia,amg_2026,top_box,Sexo,No sabe/No contestó,,,0,,,,suppressed
+Q_35:edad:15_a_19_anos,Q_35,Se ve adquiriendo vivienda propia,amg_2026,top_box,Edad,15 a 19 años,Sí,91.76,386,5.56,88.16,94.33,
+Q_35:edad:20_a_24_anos,Q_35,Se ve adquiriendo vivienda propia,amg_2026,top_box,Edad,20 a 24 años,Sí,87.07,403,6.01,82.5,90.58,
+Q_35:edad:25_a_29_anos,Q_35,Se ve adquiriendo vivienda propia,amg_2026,top_box,Edad,25 a 29 años,Sí,84.01,418,5.61,79.48,87.7,
+Q_35:estrato:alto,Q_35,Se ve adquiriendo vivienda propia,amg_2026,top_box,Estrato,Alto,Sí,84.47,401,4.94,80.56,87.72,
+Q_35:estrato:medio,Q_35,Se ve adquiriendo vivienda propia,amg_2026,top_box,Estrato,Medio,Sí,87.32,400,4.91,83.69,90.23,
+Q_35:estrato:bajo,Q_35,Se ve adquiriendo vivienda propia,amg_2026,top_box,Estrato,Bajo,Sí,88.42,406,4.91,84.9,91.2,
+Q_37:total,Q_37,Conseguir drogas es algo/muy fácil,amg_2026,top_box,Total AMG,Total AMG,Algo fácil o Muy fácil,77.82,1207,3.31,74.95,80.45,
+Q_37:municipio:el_salto,Q_37,Conseguir drogas es algo/muy fácil,amg_2026,top_box,Municipio,El Salto,Algo fácil o Muy fácil,75.06,23,21.87,53.24,88.83,small_sample
+Q_37:municipio:guadalajara,Q_37,Conseguir drogas es algo/muy fácil,amg_2026,top_box,Municipio,Guadalajara,Algo fácil o Muy fácil,82.04,413,5.88,77.1,86.1,
+Q_37:municipio:san_pedro_tlaquepaque,Q_37,Conseguir drogas es algo/muy fácil,amg_2026,top_box,Municipio,San Pedro Tlaquepaque,Algo fácil o Muy fácil,80.44,156,8.75,72.64,86.43,
+Q_37:municipio:tlajomulco_de_zuniga,Q_37,Conseguir drogas es algo/muy fácil,amg_2026,top_box,Municipio,Tlajomulco de Zúñiga,Algo fácil o Muy fácil,70.58,78,11.45,59.33,79.78,
+Q_37:municipio:tonala,Q_37,Conseguir drogas es algo/muy fácil,amg_2026,top_box,Municipio,Tonalá,Algo fácil o Muy fácil,84.82,96,10.84,75.49,91.02,
+Q_37:municipio:zapopan,Q_37,Conseguir drogas es algo/muy fácil,amg_2026,top_box,Municipio,Zapopan,Algo fácil o Muy fácil,73.18,441,5.6,67.95,77.83,
+Q_37:municipio:vivo_fuera_del_amg,Q_37,Conseguir drogas es algo/muy fácil,amg_2026,top_box,Municipio,Vivo fuera del AMG,,,0,,,,suppressed
+Q_37:sexo:hombre,Q_37,Conseguir drogas es algo/muy fácil,amg_2026,top_box,Sexo,Hombre,Algo fácil o Muy fácil,78.11,597,4.75,73.93,81.78,
+Q_37:sexo:mujer,Q_37,Conseguir drogas es algo/muy fácil,amg_2026,top_box,Sexo,Mujer,Algo fácil o Muy fácil,77.36,607,4.63,73.26,80.99,
+Q_37:sexo:otra_cual,Q_37,Conseguir drogas es algo/muy fácil,amg_2026,top_box,Sexo,"Otra, ¿cuál?",,,3,59.93,,,suppressed
+Q_37:sexo:no_sabe_no_contesto,Q_37,Conseguir drogas es algo/muy fácil,amg_2026,top_box,Sexo,No sabe/No contestó,,,0,,,,suppressed
+Q_37:edad:15_a_19_anos,Q_37,Conseguir drogas es algo/muy fácil,amg_2026,top_box,Edad,15 a 19 años,Algo fácil o Muy fácil,72.8,386,5.56,67.6,77.45,
+Q_37:edad:20_a_24_anos,Q_37,Conseguir drogas es algo/muy fácil,amg_2026,top_box,Edad,20 a 24 años,Algo fácil o Muy fácil,80.7,403,6.01,75.53,84.99,
+Q_37:edad:25_a_29_anos,Q_37,Conseguir drogas es algo/muy fácil,amg_2026,top_box,Edad,25 a 29 años,Algo fácil o Muy fácil,79.91,418,5.61,75.05,84.02,
+Q_37:estrato:alto,Q_37,Conseguir drogas es algo/muy fácil,amg_2026,top_box,Estrato,Alto,Algo fácil o Muy fácil,67.98,401,4.94,63.21,72.4,
+Q_37:estrato:medio,Q_37,Conseguir drogas es algo/muy fácil,amg_2026,top_box,Estrato,Medio,Algo fácil o Muy fácil,75.82,400,4.91,71.38,79.77,
+Q_37:estrato:bajo,Q_37,Conseguir drogas es algo/muy fácil,amg_2026,top_box,Estrato,Bajo,Algo fácil o Muy fácil,80.75,406,4.91,76.6,84.32,
+Q_41:total,Q_41,Salud mental buena/muy buena,amg_2026,top_box,Total AMG,Total AMG,Buena o Muy buena,66.16,1207,3.31,62.96,69.22,
+Q_41:municipio:el_salto,Q_41,Salud mental buena/muy buena,amg_2026,top_box,Municipio,El Salto,Buena o Muy buena,52.1,23,21.87,31.75,71.79,small_sample
+Q_41:municipio:guadalajara,Q_41,Salud mental buena/muy buena,amg_2026,top_box,Municipio,Guadalajara,Buena o Muy buena,64.26,413,5.88,58.47,69.66,
+Q_41:municipio:san_pedro_tlaquepaque,Q_41,Salud mental buena/muy buena,amg_2026,top_box,Municipio,San Pedro Tlaquepaque,Buena o Muy buena,67.67,156,8.75,59.07,75.22,
+Q_41:municipio:tlajomulco_de_zuniga,Q_41,Salud mental buena/muy buena,amg_2026,top_box,Municipio,Tlajomulco de Zúñiga,Buena o Muy buena,58.31,78,11.45,46.88,68.91,
+Q_41:municipio:tonala,Q_41,Salud mental buena/muy buena,amg_2026,top_box,Municipio,Tonalá,Buena o Muy buena,67.77,96,10.84,57.03,76.91,
+Q_41:municipio:zapopan,Q_41,Salud mental buena/muy buena,amg_2026,top_box,Municipio,Zapopan,Buena o Muy buena,70.33,441,5.6,64.98,75.17,
+Q_41:municipio:vivo_fuera_del_amg,Q_41,Salud mental buena/muy buena,amg_2026,top_box,Municipio,Vivo fuera del AMG,,,0,,,,suppressed
+Q_41:sexo:hombre,Q_41,Salud mental buena/muy buena,amg_2026,top_box,Sexo,Hombre,Buena o Muy buena,70.59,597,4.75,66.09,74.72,
+Q_41:sexo:mujer,Q_41,Salud mental buena/muy buena,amg_2026,top_box,Sexo,Mujer,Buena o Muy buena,62.02,607,4.63,57.44,66.39,
+Q_41:sexo:otra_cual,Q_41,Salud mental buena/muy buena,amg_2026,top_box,Sexo,"Otra, ¿cuál?",,,3,59.93,,,suppressed
+Q_41:sexo:no_sabe_no_contesto,Q_41,Salud mental buena/muy buena,amg_2026,top_box,Sexo,No sabe/No contestó,,,0,,,,suppressed
+Q_41:edad:15_a_19_anos,Q_41,Salud mental buena/muy buena,amg_2026,top_box,Edad,15 a 19 años,Buena o Muy buena,65.48,386,5.56,60.04,70.55,
+Q_41:edad:20_a_24_anos,Q_41,Salud mental buena/muy buena,amg_2026,top_box,Edad,20 a 24 años,Buena o Muy buena,67.1,403,6.01,61.24,72.47,
+Q_41:edad:25_a_29_anos,Q_41,Salud mental buena/muy buena,amg_2026,top_box,Edad,25 a 29 años,Buena o Muy buena,65.86,418,5.61,60.37,70.96,
+Q_41:estrato:alto,Q_41,Salud mental buena/muy buena,amg_2026,top_box,Estrato,Alto,Buena o Muy buena,77.02,401,4.94,72.61,80.9,
+Q_41:estrato:medio,Q_41,Salud mental buena/muy buena,amg_2026,top_box,Estrato,Medio,Buena o Muy buena,67.74,400,4.91,62.99,72.14,
+Q_41:estrato:bajo,Q_41,Salud mental buena/muy buena,amg_2026,top_box,Estrato,Bajo,Buena o Muy buena,63.2,406,4.91,58.36,67.79,
+Q_46:total,Q_46,Fue víctima de algún delito (12 meses),amg_2026,top_box,Total AMG,Total AMG,"Sí, de un delito o Sí, de más de un delito",10.73,1207,3.31,8.85,12.95,
+Q_46:municipio:el_salto,Q_46,Fue víctima de algún delito (12 meses),amg_2026,top_box,Municipio,El Salto,"Sí, de un delito o Sí, de más de un delito",7.94,23,21.87,1.93,27.45,small_sample
+Q_46:municipio:guadalajara,Q_46,Fue víctima de algún delito (12 meses),amg_2026,top_box,Municipio,Guadalajara,"Sí, de un delito o Sí, de más de un delito",12.35,413,5.88,8.99,16.74,
+Q_46:municipio:san_pedro_tlaquepaque,Q_46,Fue víctima de algún delito (12 meses),amg_2026,top_box,Municipio,San Pedro Tlaquepaque,"Sí, de un delito o Sí, de más de un delito",11.9,156,8.75,7.34,18.73,
+Q_46:municipio:tlajomulco_de_zuniga,Q_46,Fue víctima de algún delito (12 meses),amg_2026,top_box,Municipio,Tlajomulco de Zúñiga,"Sí, de un delito o Sí, de más de un delito",10.09,78,11.45,5.07,19.09,
+Q_46:municipio:tonala,Q_46,Fue víctima de algún delito (12 meses),amg_2026,top_box,Municipio,Tonalá,"Sí, de un delito o Sí, de más de un delito",11.15,96,10.84,6.0,19.79,
+Q_46:municipio:zapopan,Q_46,Fue víctima de algún delito (12 meses),amg_2026,top_box,Municipio,Zapopan,"Sí, de un delito o Sí, de más de un delito",9.03,441,5.6,6.31,12.77,
+Q_46:municipio:vivo_fuera_del_amg,Q_46,Fue víctima de algún delito (12 meses),amg_2026,top_box,Municipio,Vivo fuera del AMG,,,0,,,,suppressed
+Q_46:sexo:hombre,Q_46,Fue víctima de algún delito (12 meses),amg_2026,top_box,Sexo,Hombre,"Sí, de un delito o Sí, de más de un delito",11.86,597,4.75,9.13,15.28,
+Q_46:sexo:mujer,Q_46,Fue víctima de algún delito (12 meses),amg_2026,top_box,Sexo,Mujer,"Sí, de un delito o Sí, de más de un delito",9.52,607,4.63,7.14,12.59,
+Q_46:sexo:otra_cual,Q_46,Fue víctima de algún delito (12 meses),amg_2026,top_box,Sexo,"Otra, ¿cuál?",,,3,59.93,,,suppressed
+Q_46:sexo:no_sabe_no_contesto,Q_46,Fue víctima de algún delito (12 meses),amg_2026,top_box,Sexo,No sabe/No contestó,,,0,,,,suppressed
+Q_46:edad:15_a_19_anos,Q_46,Fue víctima de algún delito (12 meses),amg_2026,top_box,Edad,15 a 19 años,"Sí, de un delito o Sí, de más de un delito",8.15,386,5.56,5.59,11.73,
+Q_46:edad:20_a_24_anos,Q_46,Fue víctima de algún delito (12 meses),amg_2026,top_box,Edad,20 a 24 años,"Sí, de un delito o Sí, de más de un delito",9.75,403,6.01,6.73,13.91,
+Q_46:edad:25_a_29_anos,Q_46,Fue víctima de algún delito (12 meses),amg_2026,top_box,Edad,25 a 29 años,"Sí, de un delito o Sí, de más de un delito",14.38,418,5.61,10.88,18.76,
+Q_46:estrato:alto,Q_46,Fue víctima de algún delito (12 meses),amg_2026,top_box,Estrato,Alto,"Sí, de un delito o Sí, de más de un delito",10.44,401,4.94,7.79,13.85,
+Q_46:estrato:medio,Q_46,Fue víctima de algún delito (12 meses),amg_2026,top_box,Estrato,Medio,"Sí, de un delito o Sí, de más de un delito",11.51,400,4.91,8.74,15.02,
+Q_46:estrato:bajo,Q_46,Fue víctima de algún delito (12 meses),amg_2026,top_box,Estrato,Bajo,"Sí, de un delito o Sí, de más de un delito",10.45,406,4.91,7.81,13.84,
+Q_48:total,Q_48,Denunció el delito,amg_2026,top_box,Total AMG,Total AMG,Sí,40.39,132,10.01,31.12,50.4,
+Q_48:municipio:el_salto,Q_48,Denunció el delito,amg_2026,top_box,Municipio,El Salto,,,2,72.09,,,suppressed
+Q_48:municipio:guadalajara,Q_48,Denunció el delito,amg_2026,top_box,Municipio,Guadalajara,Sí,35.65,54,16.37,22.07,52.0,
+Q_48:municipio:san_pedro_tlaquepaque,Q_48,Denunció el delito,amg_2026,top_box,Municipio,San Pedro Tlaquepaque,Sí,61.11,18,25.33,36.7,80.99,small_sample
+Q_48:municipio:tlajomulco_de_zuniga,Q_48,Denunció el delito,amg_2026,top_box,Municipio,Tlajomulco de Zúñiga,,,7,37.26,,,suppressed
+Q_48:municipio:tonala,Q_48,Denunció el delito,amg_2026,top_box,Municipio,Tonalá,Sí,42.45,11,32.99,17.42,72.06,small_sample
+Q_48:municipio:zapopan,Q_48,Denunció el delito,amg_2026,top_box,Municipio,Zapopan,Sí,31.0,40,18.06,17.33,49.06,
+Q_48:municipio:vivo_fuera_del_amg,Q_48,Denunció el delito,amg_2026,top_box,Municipio,Vivo fuera del AMG,,,0,,,,suppressed
+Q_48:sexo:hombre,Q_48,Denunció el delito,amg_2026,top_box,Sexo,Hombre,Sí,36.13,74,13.61,24.44,49.74,
+Q_48:sexo:mujer,Q_48,Denunció el delito,amg_2026,top_box,Sexo,Mujer,Sí,46.37,57,14.91,32.41,60.92,
+Q_48:sexo:otra_cual,Q_48,Denunció el delito,amg_2026,top_box,Sexo,"Otra, ¿cuál?",,,1,98.0,,,suppressed
+Q_48:sexo:no_sabe_no_contesto,Q_48,Denunció el delito,amg_2026,top_box,Sexo,No sabe/No contestó,,,0,,,,suppressed
+Q_48:edad:15_a_19_anos,Q_48,Denunció el delito,amg_2026,top_box,Edad,15 a 19 años,Sí,26.55,32,19.21,13.44,45.68,
+Q_48:edad:20_a_24_anos,Q_48,Denunció el delito,amg_2026,top_box,Edad,20 a 24 años,Sí,48.12,43,18.61,30.92,65.78,
+Q_48:edad:25_a_29_anos,Q_48,Denunció el delito,amg_2026,top_box,Edad,25 a 29 años,Sí,42.89,57,15.06,29.19,57.77,
+Q_48:estrato:alto,Q_48,Denunció el delito,amg_2026,top_box,Estrato,Alto,Sí,42.41,43,15.07,28.77,57.32,
+Q_48:estrato:medio,Q_48,Denunció el delito,amg_2026,top_box,Estrato,Medio,Sí,47.8,46,14.49,34.07,61.87,
+Q_48:estrato:bajo,Q_48,Denunció el delito,amg_2026,top_box,Estrato,Bajo,Sí,36.41,43,15.09,23.59,51.49,
+T_Q_43_1:total,T_Q_43_1,Siente insegura la ciudad,amg_2026,top_box,Total AMG,Total AMG,Nada seguro o Poco seguro,32.97,1207,3.31,29.93,36.15,
+T_Q_43_1:municipio:el_salto,T_Q_43_1,Siente insegura la ciudad,amg_2026,top_box,Municipio,El Salto,Nada seguro o Poco seguro,30.29,23,21.87,14.77,52.14,small_sample
+T_Q_43_1:municipio:guadalajara,T_Q_43_1,Siente insegura la ciudad,amg_2026,top_box,Municipio,Guadalajara,Nada seguro o Poco seguro,33.81,413,5.88,28.51,39.56,
+T_Q_43_1:municipio:san_pedro_tlaquepaque,T_Q_43_1,Siente insegura la ciudad,amg_2026,top_box,Municipio,San Pedro Tlaquepaque,Nada seguro o Poco seguro,37.11,156,8.75,29.16,45.82,
+T_Q_43_1:municipio:tlajomulco_de_zuniga,T_Q_43_1,Siente insegura la ciudad,amg_2026,top_box,Municipio,Tlajomulco de Zúñiga,Nada seguro o Poco seguro,43.49,78,11.45,32.74,54.88,
+T_Q_43_1:municipio:tonala,T_Q_43_1,Siente insegura la ciudad,amg_2026,top_box,Municipio,Tonalá,Nada seguro o Poco seguro,30.02,96,10.84,21.16,40.68,
+T_Q_43_1:municipio:zapopan,T_Q_43_1,Siente insegura la ciudad,amg_2026,top_box,Municipio,Zapopan,Nada seguro o Poco seguro,28.1,441,5.6,23.36,33.39,
+T_Q_43_1:municipio:vivo_fuera_del_amg,T_Q_43_1,Siente insegura la ciudad,amg_2026,top_box,Municipio,Vivo fuera del AMG,,,0,,,,suppressed
+T_Q_43_1:sexo:hombre,T_Q_43_1,Siente insegura la ciudad,amg_2026,top_box,Sexo,Hombre,Nada seguro o Poco seguro,28.85,597,4.75,24.75,33.33,
+T_Q_43_1:sexo:mujer,T_Q_43_1,Siente insegura la ciudad,amg_2026,top_box,Sexo,Mujer,Nada seguro o Poco seguro,36.94,607,4.63,32.6,41.5,
+T_Q_43_1:sexo:otra_cual,T_Q_43_1,Siente insegura la ciudad,amg_2026,top_box,Sexo,"Otra, ¿cuál?",,,3,59.93,,,suppressed
+T_Q_43_1:sexo:no_sabe_no_contesto,T_Q_43_1,Siente insegura la ciudad,amg_2026,top_box,Sexo,No sabe/No contestó,,,0,,,,suppressed
+T_Q_43_1:edad:15_a_19_anos,T_Q_43_1,Siente insegura la ciudad,amg_2026,top_box,Edad,15 a 19 años,Nada seguro o Poco seguro,28.83,386,5.56,24.07,34.1,
+T_Q_43_1:edad:20_a_24_anos,T_Q_43_1,Siente insegura la ciudad,amg_2026,top_box,Edad,20 a 24 años,Nada seguro o Poco seguro,35.14,403,6.01,29.65,41.06,
+T_Q_43_1:edad:25_a_29_anos,T_Q_43_1,Siente insegura la ciudad,amg_2026,top_box,Edad,25 a 29 años,Nada seguro o Poco seguro,34.91,418,5.61,29.77,40.42,
+T_Q_43_1:estrato:alto,T_Q_43_1,Siente insegura la ciudad,amg_2026,top_box,Estrato,Alto,Nada seguro o Poco seguro,31.01,401,4.94,26.64,35.75,
+T_Q_43_1:estrato:medio,T_Q_43_1,Siente insegura la ciudad,amg_2026,top_box,Estrato,Medio,Nada seguro o Poco seguro,30.64,400,4.91,26.31,35.34,
+T_Q_43_1:estrato:bajo,T_Q_43_1,Siente insegura la ciudad,amg_2026,top_box,Estrato,Bajo,Nada seguro o Poco seguro,34.39,406,4.91,29.9,39.18,
+T_Q_43_2:total,T_Q_43_2,Siente insegura su colonia,amg_2026,top_box,Total AMG,Total AMG,Nada seguro o Poco seguro,25.64,1207,3.31,22.86,28.64,
+T_Q_43_2:municipio:el_salto,T_Q_43_2,Siente insegura su colonia,amg_2026,top_box,Municipio,El Salto,Nada seguro o Poco seguro,37.67,23,21.87,20.13,59.16,small_sample
+T_Q_43_2:municipio:guadalajara,T_Q_43_2,Siente insegura su colonia,amg_2026,top_box,Municipio,Guadalajara,Nada seguro o Poco seguro,24.25,413,5.88,19.59,29.62,
+T_Q_43_2:municipio:san_pedro_tlaquepaque,T_Q_43_2,Siente insegura su colonia,amg_2026,top_box,Municipio,San Pedro Tlaquepaque,Nada seguro o Poco seguro,29.56,156,8.75,22.28,38.06,
+T_Q_43_2:municipio:tlajomulco_de_zuniga,T_Q_43_2,Siente insegura su colonia,amg_2026,top_box,Municipio,Tlajomulco de Zúñiga,Nada seguro o Poco seguro,31.29,78,11.45,21.83,42.61,
+T_Q_43_2:municipio:tonala,T_Q_43_2,Siente insegura su colonia,amg_2026,top_box,Municipio,Tonalá,Nada seguro o Poco seguro,31.12,96,10.84,22.12,41.82,
+T_Q_43_2:municipio:zapopan,T_Q_43_2,Siente insegura su colonia,amg_2026,top_box,Municipio,Zapopan,Nada seguro o Poco seguro,20.68,441,5.6,16.51,25.56,
+T_Q_43_2:municipio:vivo_fuera_del_amg,T_Q_43_2,Siente insegura su colonia,amg_2026,top_box,Municipio,Vivo fuera del AMG,,,0,,,,suppressed
+T_Q_43_2:sexo:hombre,T_Q_43_2,Siente insegura su colonia,amg_2026,top_box,Sexo,Hombre,Nada seguro o Poco seguro,22.51,597,4.75,18.79,26.71,
+T_Q_43_2:sexo:mujer,T_Q_43_2,Siente insegura su colonia,amg_2026,top_box,Sexo,Mujer,Nada seguro o Poco seguro,28.9,607,4.63,24.89,33.26,
+T_Q_43_2:sexo:otra_cual,T_Q_43_2,Siente insegura su colonia,amg_2026,top_box,Sexo,"Otra, ¿cuál?",,,3,59.93,,,suppressed
+T_Q_43_2:sexo:no_sabe_no_contesto,T_Q_43_2,Siente insegura su colonia,amg_2026,top_box,Sexo,No sabe/No contestó,,,0,,,,suppressed
+T_Q_43_2:edad:15_a_19_anos,T_Q_43_2,Siente insegura su colonia,amg_2026,top_box,Edad,15 a 19 años,Nada seguro o Poco seguro,22.47,386,5.56,18.18,27.43,
+T_Q_43_2:edad:20_a_24_anos,T_Q_43_2,Siente insegura su colonia,amg_2026,top_box,Edad,20 a 24 años,Nada seguro o Poco seguro,27.95,403,6.01,22.89,33.63,
+T_Q_43_2:edad:25_a_29_anos,T_Q_43_2,Siente insegura su colonia,amg_2026,top_box,Edad,25 a 29 años,Nada seguro o Poco seguro,26.46,418,5.61,21.82,31.68,
+T_Q_43_2:estrato:alto,T_Q_43_2,Siente insegura su colonia,amg_2026,top_box,Estrato,Alto,Nada seguro o Poco seguro,17.19,401,4.94,13.78,21.23,
+T_Q_43_2:estrato:medio,T_Q_43_2,Siente insegura su colonia,amg_2026,top_box,Estrato,Medio,Nada seguro o Poco seguro,20.0,400,4.91,16.36,24.21,
+T_Q_43_2:estrato:bajo,T_Q_43_2,Siente insegura su colonia,amg_2026,top_box,Estrato,Bajo,Nada seguro o Poco seguro,29.87,406,4.91,25.59,34.54,
+T_Q_60_6:total,T_Q_60_6,Participó en colectivos,amg_2026,top_box,Total AMG,Total AMG,Sí,12.94,1207,3.31,10.87,15.33,
+T_Q_60_6:municipio:el_salto,T_Q_60_6,Participó en colectivos,amg_2026,top_box,Municipio,El Salto,Sí,8.3,23,21.87,2.07,27.92,small_sample
+T_Q_60_6:municipio:guadalajara,T_Q_60_6,Participó en colectivos,amg_2026,top_box,Municipio,Guadalajara,Sí,13.53,413,5.88,10.0,18.05,
+T_Q_60_6:municipio:san_pedro_tlaquepaque,T_Q_60_6,Participó en colectivos,amg_2026,top_box,Municipio,San Pedro Tlaquepaque,Sí,11.07,156,8.75,6.69,17.75,
+T_Q_60_6:municipio:tlajomulco_de_zuniga,T_Q_60_6,Participó en colectivos,amg_2026,top_box,Municipio,Tlajomulco de Zúñiga,Sí,18.39,78,11.45,11.17,28.75,
+T_Q_60_6:municipio:tonala,T_Q_60_6,Participó en colectivos,amg_2026,top_box,Municipio,Tonalá,Sí,6.33,96,10.84,2.77,13.81,
+T_Q_60_6:municipio:zapopan,T_Q_60_6,Participó en colectivos,amg_2026,top_box,Municipio,Zapopan,Sí,13.91,441,5.6,10.48,18.24,
+T_Q_60_6:municipio:vivo_fuera_del_amg,T_Q_60_6,Participó en colectivos,amg_2026,top_box,Municipio,Vivo fuera del AMG,,,0,,,,suppressed
+T_Q_60_6:sexo:hombre,T_Q_60_6,Participó en colectivos,amg_2026,top_box,Sexo,Hombre,Sí,11.8,597,4.75,9.07,15.21,
+T_Q_60_6:sexo:mujer,T_Q_60_6,Participó en colectivos,amg_2026,top_box,Sexo,Mujer,Sí,14.2,607,4.63,11.27,17.74,
+T_Q_60_6:sexo:otra_cual,T_Q_60_6,Participó en colectivos,amg_2026,top_box,Sexo,"Otra, ¿cuál?",,,3,59.93,,,suppressed
+T_Q_60_6:sexo:no_sabe_no_contesto,T_Q_60_6,Participó en colectivos,amg_2026,top_box,Sexo,No sabe/No contestó,,,0,,,,suppressed
+T_Q_60_6:edad:15_a_19_anos,T_Q_60_6,Participó en colectivos,amg_2026,top_box,Edad,15 a 19 años,Sí,11.27,386,5.56,8.22,15.27,
+T_Q_60_6:edad:20_a_24_anos,T_Q_60_6,Participó en colectivos,amg_2026,top_box,Edad,20 a 24 años,Sí,10.72,403,6.01,7.54,15.01,
+T_Q_60_6:edad:25_a_29_anos,T_Q_60_6,Participó en colectivos,amg_2026,top_box,Edad,25 a 29 años,Sí,16.96,418,5.61,13.16,21.57,
+T_Q_60_6:estrato:alto,T_Q_60_6,Participó en colectivos,amg_2026,top_box,Estrato,Alto,Sí,16.01,401,4.94,12.71,19.96,
+T_Q_60_6:estrato:medio,T_Q_60_6,Participó en colectivos,amg_2026,top_box,Estrato,Medio,Sí,14.73,400,4.91,11.59,18.55,
+T_Q_60_6:estrato:bajo,T_Q_60_6,Participó en colectivos,amg_2026,top_box,Estrato,Bajo,Sí,11.51,406,4.91,8.74,15.02,
+Q_69:total,Q_69,Usa principalmente camión/Macrobús,amg_2026,top_box,Total AMG,Total AMG,Camión/Macrobús,43.67,1207,3.31,40.42,46.98,
+Q_69:municipio:el_salto,Q_69,Usa principalmente camión/Macrobús,amg_2026,top_box,Municipio,El Salto,Camión/Macrobús,29.71,23,21.87,14.37,51.57,small_sample
+Q_69:municipio:guadalajara,Q_69,Usa principalmente camión/Macrobús,amg_2026,top_box,Municipio,Guadalajara,Camión/Macrobús,34.79,413,5.88,29.43,40.56,
+Q_69:municipio:san_pedro_tlaquepaque,Q_69,Usa principalmente camión/Macrobús,amg_2026,top_box,Municipio,San Pedro Tlaquepaque,Camión/Macrobús,39.87,156,8.75,31.73,48.62,
+Q_69:municipio:tlajomulco_de_zuniga,Q_69,Usa principalmente camión/Macrobús,amg_2026,top_box,Municipio,Tlajomulco de Zúñiga,Camión/Macrobús,66.9,78,11.45,55.52,76.6,
+Q_69:municipio:tonala,Q_69,Usa principalmente camión/Macrobús,amg_2026,top_box,Municipio,Tonalá,Camión/Macrobús,53.25,96,10.84,42.52,63.68,
+Q_69:municipio:zapopan,Q_69,Usa principalmente camión/Macrobús,amg_2026,top_box,Municipio,Zapopan,Camión/Macrobús,43.69,441,5.6,38.24,49.3,
+Q_69:municipio:vivo_fuera_del_amg,Q_69,Usa principalmente camión/Macrobús,amg_2026,top_box,Municipio,Vivo fuera del AMG,,,0,,,,suppressed
+Q_69:sexo:hombre,Q_69,Usa principalmente camión/Macrobús,amg_2026,top_box,Sexo,Hombre,Camión/Macrobús,37.66,597,4.75,33.18,42.36,
+Q_69:sexo:mujer,Q_69,Usa principalmente camión/Macrobús,amg_2026,top_box,Sexo,Mujer,Camión/Macrobús,49.84,607,4.63,45.23,54.45,
+Q_69:sexo:otra_cual,Q_69,Usa principalmente camión/Macrobús,amg_2026,top_box,Sexo,"Otra, ¿cuál?",,,3,59.93,,,suppressed
+Q_69:sexo:no_sabe_no_contesto,Q_69,Usa principalmente camión/Macrobús,amg_2026,top_box,Sexo,No sabe/No contestó,,,0,,,,suppressed
+Q_69:edad:15_a_19_anos,Q_69,Usa principalmente camión/Macrobús,amg_2026,top_box,Edad,15 a 19 años,Camión/Macrobús,46.1,386,5.56,40.64,51.65,
+Q_69:edad:20_a_24_anos,Q_69,Usa principalmente camión/Macrobús,amg_2026,top_box,Edad,20 a 24 años,Camión/Macrobús,46.16,403,6.01,40.26,52.17,
+Q_69:edad:25_a_29_anos,Q_69,Usa principalmente camión/Macrobús,amg_2026,top_box,Edad,25 a 29 años,Camión/Macrobús,38.6,418,5.61,33.31,44.17,
+Q_69:estrato:alto,Q_69,Usa principalmente camión/Macrobús,amg_2026,top_box,Estrato,Alto,Camión/Macrobús,35.27,401,4.94,30.71,40.12,
+Q_69:estrato:medio,Q_69,Usa principalmente camión/Macrobús,amg_2026,top_box,Estrato,Medio,Camión/Macrobús,36.03,400,4.91,31.46,40.86,
+Q_69:estrato:bajo,Q_69,Usa principalmente camión/Macrobús,amg_2026,top_box,Estrato,Bajo,Camión/Macrobús,48.76,406,4.91,43.89,53.66,
+Q_70:total,Q_70,"Tiempo de traslado diario (mediana, minutos)",amg_2026,median,Total AMG,Total AMG,Mediana,60.0,1158,3.39,,,
+Q_70:municipio:el_salto,Q_70,"Tiempo de traslado diario (mediana, minutos)",amg_2026,median,Municipio,El Salto,Mediana,40.0,21,22.91,,,small_sample
+Q_70:municipio:guadalajara,Q_70,"Tiempo de traslado diario (mediana, minutos)",amg_2026,median,Municipio,Guadalajara,Mediana,40.0,390,6.05,,,
+Q_70:municipio:san_pedro_tlaquepaque,Q_70,"Tiempo de traslado diario (mediana, minutos)",amg_2026,median,Municipio,San Pedro Tlaquepaque,Mediana,60.0,149,8.95,,,
+Q_70:municipio:tlajomulco_de_zuniga,Q_70,"Tiempo de traslado diario (mediana, minutos)",amg_2026,median,Municipio,Tlajomulco de Zúñiga,Mediana,60.0,71,12.01,,,
+Q_70:municipio:tonala,Q_70,"Tiempo de traslado diario (mediana, minutos)",amg_2026,median,Municipio,Tonalá,Mediana,50.0,90,11.22,,,
+Q_70:municipio:zapopan,Q_70,"Tiempo de traslado diario (mediana, minutos)",amg_2026,median,Municipio,Zapopan,Mediana,60.0,437,5.63,,,
+Q_70:municipio:vivo_fuera_del_amg,Q_70,"Tiempo de traslado diario (mediana, minutos)",amg_2026,median,Municipio,Vivo fuera del AMG,,,0,,,,suppressed
+Q_70:sexo:hombre,Q_70,"Tiempo de traslado diario (mediana, minutos)",amg_2026,median,Sexo,Hombre,Mediana,60.0,577,4.83,,,
+Q_70:sexo:mujer,Q_70,"Tiempo de traslado diario (mediana, minutos)",amg_2026,median,Sexo,Mujer,Mediana,60.0,578,4.76,,,
+Q_70:sexo:otra_cual,Q_70,"Tiempo de traslado diario (mediana, minutos)",amg_2026,median,Sexo,"Otra, ¿cuál?",,,3,59.93,,,suppressed
+Q_70:sexo:no_sabe_no_contesto,Q_70,"Tiempo de traslado diario (mediana, minutos)",amg_2026,median,Sexo,No sabe/No contestó,,,0,,,,suppressed
+Q_70:edad:15_a_19_anos,Q_70,"Tiempo de traslado diario (mediana, minutos)",amg_2026,median,Edad,15 a 19 años,Mediana,40.0,374,5.65,,,
+Q_70:edad:20_a_24_anos,Q_70,"Tiempo de traslado diario (mediana, minutos)",amg_2026,median,Edad,20 a 24 años,Mediana,60.0,384,6.17,,,
+Q_70:edad:25_a_29_anos,Q_70,"Tiempo de traslado diario (mediana, minutos)",amg_2026,median,Edad,25 a 29 años,Mediana,60.0,400,5.75,,,
+Q_70:estrato:alto,Q_70,"Tiempo de traslado diario (mediana, minutos)",amg_2026,median,Estrato,Alto,Mediana,60.0,390,5.01,,,
+Q_70:estrato:medio,Q_70,"Tiempo de traslado diario (mediana, minutos)",amg_2026,median,Estrato,Medio,Mediana,60.0,385,5.01,,,
+Q_70:estrato:bajo,Q_70,"Tiempo de traslado diario (mediana, minutos)",amg_2026,median,Estrato,Bajo,Mediana,60.0,383,5.05,,,
+DER_ESTUDIA_TRABAJA:total,DER_ESTUDIA_TRABAJA,Estudia y trabaja,amg_2026,top_box,Total AMG,Total AMG,Sí,23.64,1207,3.31,20.95,26.57,
+DER_ESTUDIA_TRABAJA:municipio:el_salto,DER_ESTUDIA_TRABAJA,Estudia y trabaja,amg_2026,top_box,Municipio,El Salto,Sí,27.3,23,21.87,12.72,49.16,small_sample
+DER_ESTUDIA_TRABAJA:municipio:guadalajara,DER_ESTUDIA_TRABAJA,Estudia y trabaja,amg_2026,top_box,Municipio,Guadalajara,Sí,23.04,413,5.88,18.48,28.34,
+DER_ESTUDIA_TRABAJA:municipio:san_pedro_tlaquepaque,DER_ESTUDIA_TRABAJA,Estudia y trabaja,amg_2026,top_box,Municipio,San Pedro Tlaquepaque,Sí,22.18,156,8.75,15.8,30.21,
+DER_ESTUDIA_TRABAJA:municipio:tlajomulco_de_zuniga,DER_ESTUDIA_TRABAJA,Estudia y trabaja,amg_2026,top_box,Municipio,Tlajomulco de Zúñiga,Sí,21.33,78,11.45,13.51,32.02,
+DER_ESTUDIA_TRABAJA:municipio:tonala,DER_ESTUDIA_TRABAJA,Estudia y trabaja,amg_2026,top_box,Municipio,Tonalá,Sí,20.69,96,10.84,13.32,30.69,
+DER_ESTUDIA_TRABAJA:municipio:zapopan,DER_ESTUDIA_TRABAJA,Estudia y trabaja,amg_2026,top_box,Municipio,Zapopan,Sí,26.27,441,5.6,21.65,31.48,
+DER_ESTUDIA_TRABAJA:municipio:vivo_fuera_del_amg,DER_ESTUDIA_TRABAJA,Estudia y trabaja,amg_2026,top_box,Municipio,Vivo fuera del AMG,,,0,,,,suppressed
+DER_ESTUDIA_TRABAJA:sexo:hombre,DER_ESTUDIA_TRABAJA,Estudia y trabaja,amg_2026,top_box,Sexo,Hombre,Sí,24.99,597,4.75,21.11,29.31,
+DER_ESTUDIA_TRABAJA:sexo:mujer,DER_ESTUDIA_TRABAJA,Estudia y trabaja,amg_2026,top_box,Sexo,Mujer,Sí,22.03,607,4.63,18.44,26.1,
+DER_ESTUDIA_TRABAJA:sexo:otra_cual,DER_ESTUDIA_TRABAJA,Estudia y trabaja,amg_2026,top_box,Sexo,"Otra, ¿cuál?",,,3,59.93,,,suppressed
+DER_ESTUDIA_TRABAJA:sexo:no_sabe_no_contesto,DER_ESTUDIA_TRABAJA,Estudia y trabaja,amg_2026,top_box,Sexo,No sabe/No contestó,,,0,,,,suppressed
+DER_ESTUDIA_TRABAJA:edad:15_a_19_anos,DER_ESTUDIA_TRABAJA,Estudia y trabaja,amg_2026,top_box,Edad,15 a 19 años,Sí,37.4,386,5.56,32.2,42.9,
+DER_ESTUDIA_TRABAJA:edad:20_a_24_anos,DER_ESTUDIA_TRABAJA,Estudia y trabaja,amg_2026,top_box,Edad,20 a 24 años,Sí,19.61,403,6.01,15.28,24.81,
+DER_ESTUDIA_TRABAJA:edad:25_a_29_anos,DER_ESTUDIA_TRABAJA,Estudia y trabaja,amg_2026,top_box,Edad,25 a 29 años,Sí,13.88,418,5.61,10.45,18.22,
+DER_ESTUDIA_TRABAJA:estrato:alto,DER_ESTUDIA_TRABAJA,Estudia y trabaja,amg_2026,top_box,Estrato,Alto,Sí,29.18,401,4.94,24.91,33.86,
+DER_ESTUDIA_TRABAJA:estrato:medio,DER_ESTUDIA_TRABAJA,Estudia y trabaja,amg_2026,top_box,Estrato,Medio,Sí,24.88,400,4.91,20.88,29.35,
+DER_ESTUDIA_TRABAJA:estrato:bajo,DER_ESTUDIA_TRABAJA,Estudia y trabaja,amg_2026,top_box,Estrato,Bajo,Sí,21.95,406,4.91,18.17,26.27,
+DER_NINI:total,DER_NINI,Ni estudia ni trabaja,amg_2026,top_box,Total AMG,Total AMG,Sí,9.71,1207,3.31,7.92,11.86,
+DER_NINI:municipio:el_salto,DER_NINI,Ni estudia ni trabaja,amg_2026,top_box,Municipio,El Salto,Sí,8.06,23,21.87,1.98,27.61,small_sample
+DER_NINI:municipio:guadalajara,DER_NINI,Ni estudia ni trabaja,amg_2026,top_box,Municipio,Guadalajara,Sí,11.38,413,5.88,8.16,15.65,
+DER_NINI:municipio:san_pedro_tlaquepaque,DER_NINI,Ni estudia ni trabaja,amg_2026,top_box,Municipio,San Pedro Tlaquepaque,Sí,5.19,156,8.75,2.47,10.56,
+DER_NINI:municipio:tlajomulco_de_zuniga,DER_NINI,Ni estudia ni trabaja,amg_2026,top_box,Municipio,Tlajomulco de Zúñiga,Sí,21.84,78,11.45,13.92,32.58,
+DER_NINI:municipio:tonala,DER_NINI,Ni estudia ni trabaja,amg_2026,top_box,Municipio,Tonalá,Sí,7.89,96,10.84,3.76,15.8,
+DER_NINI:municipio:zapopan,DER_NINI,Ni estudia ni trabaja,amg_2026,top_box,Municipio,Zapopan,Sí,6.9,441,5.6,4.56,10.31,
+DER_NINI:municipio:vivo_fuera_del_amg,DER_NINI,Ni estudia ni trabaja,amg_2026,top_box,Municipio,Vivo fuera del AMG,,,0,,,,suppressed
+DER_NINI:sexo:hombre,DER_NINI,Ni estudia ni trabaja,amg_2026,top_box,Sexo,Hombre,Sí,5.34,597,4.75,3.57,7.9,
+DER_NINI:sexo:mujer,DER_NINI,Ni estudia ni trabaja,amg_2026,top_box,Sexo,Mujer,Sí,14.25,607,4.63,11.31,17.79,
+DER_NINI:sexo:otra_cual,DER_NINI,Ni estudia ni trabaja,amg_2026,top_box,Sexo,"Otra, ¿cuál?",,,3,59.93,,,suppressed
+DER_NINI:sexo:no_sabe_no_contesto,DER_NINI,Ni estudia ni trabaja,amg_2026,top_box,Sexo,No sabe/No contestó,,,0,,,,suppressed
+DER_NINI:edad:15_a_19_anos,DER_NINI,Ni estudia ni trabaja,amg_2026,top_box,Edad,15 a 19 años,Sí,6.61,386,5.56,4.34,9.93,
+DER_NINI:edad:20_a_24_anos,DER_NINI,Ni estudia ni trabaja,amg_2026,top_box,Edad,20 a 24 años,Sí,10.68,403,6.01,7.51,14.97,
+DER_NINI:edad:25_a_29_anos,DER_NINI,Ni estudia ni trabaja,amg_2026,top_box,Edad,25 a 29 años,Sí,11.86,418,5.61,8.7,15.97,
+DER_NINI:estrato:alto,DER_NINI,Ni estudia ni trabaja,amg_2026,top_box,Estrato,Alto,Sí,3.77,401,4.94,2.29,6.15,
+DER_NINI:estrato:medio,DER_NINI,Ni estudia ni trabaja,amg_2026,top_box,Estrato,Medio,Sí,4.52,400,4.91,2.88,7.04,
+DER_NINI:estrato:bajo,DER_NINI,Ni estudia ni trabaja,amg_2026,top_box,Estrato,Bajo,Sí,13.22,406,4.91,10.25,16.9,
+Q_6:total:nada_satisfecha_o,Q_6,"En una escala del 1 al 5, donde 1 significa ""nada satisfecha(o)"" y 5 significa """,amg_2026,distribution,Total AMG,Total AMG,Nada satisfecha(o),0.78,1205,3.32,0.37,1.61,
+Q_6:total:poco_satisfecha_o,Q_6,"En una escala del 1 al 5, donde 1 significa ""nada satisfecha(o)"" y 5 significa """,amg_2026,distribution,Total AMG,Total AMG,Poco satisfecha(o),0.78,1205,3.32,0.37,1.61,
+Q_6:total:ni_satisfecha_o_ni_insatisfecha_o,Q_6,"En una escala del 1 al 5, donde 1 significa ""nada satisfecha(o)"" y 5 significa """,amg_2026,distribution,Total AMG,Total AMG,"Ni satisfecha(o), ni insatisfecha(o)",7.05,1205,3.32,5.53,8.94,
+Q_6:total:algo_satisfecha_o,Q_6,"En una escala del 1 al 5, donde 1 significa ""nada satisfecha(o)"" y 5 significa """,amg_2026,distribution,Total AMG,Total AMG,Algo satisfecha(o),36.52,1205,3.32,33.39,39.77,
+Q_6:total:muy_satisfecha_o,Q_6,"En una escala del 1 al 5, donde 1 significa ""nada satisfecha(o)"" y 5 significa """,amg_2026,distribution,Total AMG,Total AMG,Muy satisfecha(o),54.88,1205,3.32,51.56,58.15,
+Q_6:total:no_sabe_no_contesto,Q_6,"En una escala del 1 al 5, donde 1 significa ""nada satisfecha(o)"" y 5 significa """,amg_2026,distribution,Total AMG,Total AMG,No sabe/No contestó,0.0,1205,3.32,0.0,0.44,
+Q_25:total:nunca,Q_25,¿Con qué frecuencia utilizas un chatbot de inteligencia artificial (IA) como Cha,amg_2026,distribution,Total AMG,Total AMG,Nunca,40.1,1207,3.31,36.91,43.39,
+Q_25:total:una_vez_por_semana_o_con_menos_frecuencia,Q_25,¿Con qué frecuencia utilizas un chatbot de inteligencia artificial (IA) como Cha,amg_2026,distribution,Total AMG,Total AMG,Una vez por semana o con menos frecuencia,21.95,1207,3.31,19.33,24.81,
+Q_25:total:varias_veces_por_semana,Q_25,¿Con qué frecuencia utilizas un chatbot de inteligencia artificial (IA) como Cha,amg_2026,distribution,Total AMG,Total AMG,Varias veces por semana,19.78,1207,3.31,17.27,22.55,
+Q_25:total:aproximadamente_una_vez_al_dia,Q_25,¿Con qué frecuencia utilizas un chatbot de inteligencia artificial (IA) como Cha,amg_2026,distribution,Total AMG,Total AMG,Aproximadamente una vez al día,6.68,1207,3.31,5.21,8.54,
+Q_25:total:varias_veces_al_dia,Q_25,¿Con qué frecuencia utilizas un chatbot de inteligencia artificial (IA) como Cha,amg_2026,distribution,Total AMG,Total AMG,Varias veces al día,11.05,1207,3.31,9.14,13.3,
+Q_25:total:no_sabe_no_contesto,Q_25,¿Con qué frecuencia utilizas un chatbot de inteligencia artificial (IA) como Cha,amg_2026,distribution,Total AMG,Total AMG,No sabe/No contestó,0.44,1207,3.31,0.17,1.15,
+Q_32:total:les_alcanza_bien_y_pueden_ahorrar,Q_32,"Con el total del ingreso familiar, dirías que en tu hogar...",amg_2026,distribution,Total AMG,Total AMG,Les alcanza bien y pueden ahorrar,48.3,1207,3.31,45.0,51.61,
+Q_32:total:les_alcanza_justo_sin_grandes_dificultades,Q_32,"Con el total del ingreso familiar, dirías que en tu hogar...",amg_2026,distribution,Total AMG,Total AMG,"Les alcanza justo, sin grandes dificultades",43.0,1207,3.31,39.76,46.31,
+Q_32:total:no_les_alcanza_y_tienen_dificultades,Q_32,"Con el total del ingreso familiar, dirías que en tu hogar...",amg_2026,distribution,Total AMG,Total AMG,No les alcanza y tienen dificultades,7.08,1207,3.31,5.56,8.98,
+Q_32:total:no_les_alcanza_y_tienen_grandes_dificultades,Q_32,"Con el total del ingreso familiar, dirías que en tu hogar...",amg_2026,distribution,Total AMG,Total AMG,No les alcanza y tienen grandes dificultades,0.93,1207,3.31,0.47,1.81,
+Q_32:total:no_sabe_no_contesto,Q_32,"Con el total del ingreso familiar, dirías que en tu hogar...",amg_2026,distribution,Total AMG,Total AMG,No sabe/No contestó,0.69,1207,3.31,0.32,1.5,
+Q_34:total:sola_o,Q_34,¿Con quién vives?,amg_2026,distribution,Total AMG,Total AMG,Sola(o),3.37,1207,3.31,2.37,4.79,
+Q_34:total:familiares,Q_34,¿Con quién vives?,amg_2026,distribution,Total AMG,Total AMG,Familiares,84.58,1207,3.31,82.03,86.82,
+Q_34:total:pareja,Q_34,¿Con quién vives?,amg_2026,distribution,Total AMG,Total AMG,Pareja,10.32,1207,3.31,8.47,12.51,
+Q_34:total:amigos_o_conocidos,Q_34,¿Con quién vives?,amg_2026,distribution,Total AMG,Total AMG,Amigos o conocidos,1.63,1207,3.31,0.98,2.7,
+Q_34:total:otra_persona_quien,Q_34,¿Con quién vives?,amg_2026,distribution,Total AMG,Total AMG,"Otra persona, ¿quién?",0.07,1207,3.31,0.01,0.57,
+Q_34:total:no_contesto,Q_34,¿Con quién vives?,amg_2026,distribution,Total AMG,Total AMG,No contestó,0.03,1207,3.31,0.0,0.5,
+Q_38:total:1_dia_a_la_semana,Q_38,"En caso de que tomes bebidas alcohólicas, ¿cuántos días a la semana, en promedio",amg_2026,distribution,Total AMG,Total AMG,1 día a la semana,17.87,1207,3.31,15.47,20.54,
+Q_38:total:2_dias_a_la_semana,Q_38,"En caso de que tomes bebidas alcohólicas, ¿cuántos días a la semana, en promedio",amg_2026,distribution,Total AMG,Total AMG,2 días a la semana,5.61,1207,3.31,4.27,7.34,
+Q_38:total:3_dias_a_la_semana,Q_38,"En caso de que tomes bebidas alcohólicas, ¿cuántos días a la semana, en promedio",amg_2026,distribution,Total AMG,Total AMG,3 días a la semana,1.69,1207,3.31,1.02,2.78,
+Q_38:total:4_dias_a_la_semana,Q_38,"En caso de que tomes bebidas alcohólicas, ¿cuántos días a la semana, en promedio",amg_2026,distribution,Total AMG,Total AMG,4 días a la semana,0.58,1207,3.31,0.25,1.35,
+Q_38:total:5_dias_a_la_semana,Q_38,"En caso de que tomes bebidas alcohólicas, ¿cuántos días a la semana, en promedio",amg_2026,distribution,Total AMG,Total AMG,5 días a la semana,0.35,1207,3.31,0.12,1.01,
+Q_38:total:6_dias_a_la_semana,Q_38,"En caso de que tomes bebidas alcohólicas, ¿cuántos días a la semana, en promedio",amg_2026,distribution,Total AMG,Total AMG,6 días a la semana,0.14,1207,3.31,0.03,0.69,
+Q_38:total:7_dias_a_la_semana_toda_la_semana,Q_38,"En caso de que tomes bebidas alcohólicas, ¿cuántos días a la semana, en promedio",amg_2026,distribution,Total AMG,Total AMG,7 días a la semana (toda la semana),1.28,1207,3.31,0.72,2.27,
+Q_38:total:con_menos_frecuencia,Q_38,"En caso de que tomes bebidas alcohólicas, ¿cuántos días a la semana, en promedio",amg_2026,distribution,Total AMG,Total AMG,Con menos frecuencia,26.98,1207,3.31,24.14,30.02,
+Q_38:total:no_consumo_bebidas_alcoholicas,Q_38,"En caso de que tomes bebidas alcohólicas, ¿cuántos días a la semana, en promedio",amg_2026,distribution,Total AMG,Total AMG,No consumo bebidas alcohólicas,45.36,1207,3.31,42.08,48.67,
+Q_38:total:no_sabe_no_contesto,Q_38,"En caso de que tomes bebidas alcohólicas, ¿cuántos días a la semana, en promedio",amg_2026,distribution,Total AMG,Total AMG,No sabe/No contestó,0.14,1207,3.31,0.03,0.69,
+Q_39:total:1_dia_a_la_semana,Q_39,¿Cuántos días a la semana haces ejercicio o practicas un deporte?,amg_2026,distribution,Total AMG,Total AMG,1 día a la semana,9.38,1207,3.31,7.62,11.5,
+Q_39:total:2_dias_a_la_semana,Q_39,¿Cuántos días a la semana haces ejercicio o practicas un deporte?,amg_2026,distribution,Total AMG,Total AMG,2 días a la semana,10.6,1207,3.31,8.73,12.81,
+Q_39:total:3_dias_a_la_semana,Q_39,¿Cuántos días a la semana haces ejercicio o practicas un deporte?,amg_2026,distribution,Total AMG,Total AMG,3 días a la semana,12.87,1207,3.31,10.81,15.26,
+Q_39:total:4_dias_a_la_semana,Q_39,¿Cuántos días a la semana haces ejercicio o practicas un deporte?,amg_2026,distribution,Total AMG,Total AMG,4 días a la semana,7.73,1207,3.31,6.14,9.69,
+Q_39:total:5_dias_a_la_semana,Q_39,¿Cuántos días a la semana haces ejercicio o practicas un deporte?,amg_2026,distribution,Total AMG,Total AMG,5 días a la semana,13.64,1207,3.31,11.53,16.08,
+Q_39:total:6_dias_a_la_semana,Q_39,¿Cuántos días a la semana haces ejercicio o practicas un deporte?,amg_2026,distribution,Total AMG,Total AMG,6 días a la semana,3.99,1207,3.31,2.88,5.5,
+Q_39:total:7_dias_a_la_semana_toda_la_semana,Q_39,¿Cuántos días a la semana haces ejercicio o practicas un deporte?,amg_2026,distribution,Total AMG,Total AMG,7 días a la semana (toda la semana),9.75,1207,3.31,7.95,11.89,
+Q_39:total:con_menos_frecuencia,Q_39,¿Cuántos días a la semana haces ejercicio o practicas un deporte?,amg_2026,distribution,Total AMG,Total AMG,Con menos frecuencia,8.48,1207,3.31,6.81,10.52,
+Q_39:total:no_hago_ejercicio,Q_39,¿Cuántos días a la semana haces ejercicio o practicas un deporte?,amg_2026,distribution,Total AMG,Total AMG,No hago ejercicio,23.48,1207,3.31,20.79,26.4,
+Q_39:total:no_sabe_no_contesto,Q_39,¿Cuántos días a la semana haces ejercicio o practicas un deporte?,amg_2026,distribution,Total AMG,Total AMG,No sabe/No contestó,0.07,1207,3.31,0.01,0.57,
+Q_41:total:muy_mala,Q_41,"La salud mental se refiere a tu bienestar emocional. Por ejemplo, incluye tu est",amg_2026,distribution,Total AMG,Total AMG,Muy mala,1.2,1207,3.31,0.66,2.17,
+Q_41:total:mala,Q_41,"La salud mental se refiere a tu bienestar emocional. Por ejemplo, incluye tu est",amg_2026,distribution,Total AMG,Total AMG,Mala,3.5,1207,3.31,2.47,4.94,
+Q_41:total:ni_buena_ni_mala,Q_41,"La salud mental se refiere a tu bienestar emocional. Por ejemplo, incluye tu est",amg_2026,distribution,Total AMG,Total AMG,"Ni buena, ni mala",28.84,1207,3.31,25.93,31.93,
+Q_41:total:buena,Q_41,"La salud mental se refiere a tu bienestar emocional. Por ejemplo, incluye tu est",amg_2026,distribution,Total AMG,Total AMG,Buena,44.47,1207,3.31,41.21,47.78,
+Q_41:total:muy_buena,Q_41,"La salud mental se refiere a tu bienestar emocional. Por ejemplo, incluye tu est",amg_2026,distribution,Total AMG,Total AMG,Muy buena,21.69,1207,3.31,19.08,24.54,
+Q_41:total:no_sabe_no_contesto,Q_41,"La salud mental se refiere a tu bienestar emocional. Por ejemplo, incluye tu est",amg_2026,distribution,Total AMG,Total AMG,No sabe/No contestó,0.3,1207,3.31,0.1,0.95,
+Q_46:total:si_de_un_delito,Q_46,¿Fuiste víctima de algún delito en los últimos doce meses?,amg_2026,distribution,Total AMG,Total AMG,"Sí, de un delito",9.34,1207,3.31,7.58,11.45,
+Q_46:total:si_de_mas_de_un_delito,Q_46,¿Fuiste víctima de algún delito en los últimos doce meses?,amg_2026,distribution,Total AMG,Total AMG,"Sí, de más de un delito",1.39,1207,3.31,0.8,2.41,
+Q_46:total:no,Q_46,¿Fuiste víctima de algún delito en los últimos doce meses?,amg_2026,distribution,Total AMG,Total AMG,No,88.91,1207,3.31,86.66,90.83,
+Q_46:total:no_contesto,Q_46,¿Fuiste víctima de algún delito en los últimos doce meses?,amg_2026,distribution,Total AMG,Total AMG,No contestó,0.36,1207,3.31,0.12,1.03,
+Q_69:total:camion_macrobus,Q_69,"¿Qué medio de transporte usas principalmente para desplazarte a tu trabajo, ofic",amg_2026,distribution,Total AMG,Total AMG,Camión/Macrobús,43.67,1207,3.31,40.42,46.98,
+Q_69:total:taxi_uber,Q_69,"¿Qué medio de transporte usas principalmente para desplazarte a tu trabajo, ofic",amg_2026,distribution,Total AMG,Total AMG,Taxi/Uber,3.68,1207,3.31,2.62,5.15,
+Q_69:total:vehiculo_particular,Q_69,"¿Qué medio de transporte usas principalmente para desplazarte a tu trabajo, ofic",amg_2026,distribution,Total AMG,Total AMG,Vehículo particular,25.59,1207,3.31,22.81,28.58,
+Q_69:total:motocicleta,Q_69,"¿Qué medio de transporte usas principalmente para desplazarte a tu trabajo, ofic",amg_2026,distribution,Total AMG,Total AMG,Motocicleta,11.09,1207,3.31,9.17,13.34,
+Q_69:total:bicicleta,Q_69,"¿Qué medio de transporte usas principalmente para desplazarte a tu trabajo, ofic",amg_2026,distribution,Total AMG,Total AMG,Bicicleta,3.35,1207,3.31,2.35,4.77,
+Q_69:total:tren_ligero,Q_69,"¿Qué medio de transporte usas principalmente para desplazarte a tu trabajo, ofic",amg_2026,distribution,Total AMG,Total AMG,Tren ligero,3.53,1207,3.31,2.49,4.97,
+Q_69:total:caminando,Q_69,"¿Qué medio de transporte usas principalmente para desplazarte a tu trabajo, ofic",amg_2026,distribution,Total AMG,Total AMG,Caminando,7.31,1207,3.31,5.77,9.23,
+Q_69:total:mototaxi,Q_69,"¿Qué medio de transporte usas principalmente para desplazarte a tu trabajo, ofic",amg_2026,distribution,Total AMG,Total AMG,Mototaxi,0.27,1207,3.31,0.08,0.89,
+Q_69:total:patin_o_scooter,Q_69,"¿Qué medio de transporte usas principalmente para desplazarte a tu trabajo, ofic",amg_2026,distribution,Total AMG,Total AMG,Patín o Scooter,0.0,1207,3.31,0.0,0.44,
+Q_69:total:otro_medio_cual,Q_69,"¿Qué medio de transporte usas principalmente para desplazarte a tu trabajo, ofic",amg_2026,distribution,Total AMG,Total AMG,"Otro medio, ¿cuál?",0.18,1207,3.31,0.04,0.76,
+Q_69:total:no_me_desplazo,Q_69,"¿Qué medio de transporte usas principalmente para desplazarte a tu trabajo, ofic",amg_2026,distribution,Total AMG,Total AMG,No me desplazo,1.12,1207,3.31,0.61,2.06,
+Q_69:total:no_contesto,Q_69,"¿Qué medio de transporte usas principalmente para desplazarte a tu trabajo, ofic",amg_2026,distribution,Total AMG,Total AMG,No contestó,0.22,1207,3.31,0.06,0.81,

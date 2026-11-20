@@ -1,0 +1,11 @@
+id,category,origin,question,expected_answer,expected_figures,sources,expected_behavior,base_id,ai_generated,reviewed_by,notes
+oos-01,out-of-scope,out-of-scope,¿Qué porcentaje de jóvenes de Monterrey está satisfecho con su vida?,Declina: la encuesta solo cubre el AMG de Guadalajara.,,,decline,,yes,,otra ciudad/estado (imita Q_6 por municipio)
+oos-02,out-of-scope,out-of-scope,¿Cuántos jóvenes de Puerto Vallarta se sienten inseguros en su colonia?,Declina: Puerto Vallarta no está en la muestra (solo 6 municipios del AMG).,,,decline,,yes,municipio de Jalisco fuera del AMG (imita T_Q_43_2)
+oos-03,out-of-scope,out-of-scope,¿Cómo cambió la satisfacción con la vida de los jóvenes entre 2020 y 2026?,Declina: solo hay una ola (jul-ago 2026); no hay serie histórica.,,,decline,,yes,año no disponible (tendencia)
+oos-04,out-of-scope,out-of-scope,¿Qué porcentaje de jóvenes del AMG se sentía seguro en su colonia en 2019?,Declina: no hay datos de 2019.,,,decline,,yes,año no disponible
+oos-05,out-of-scope,out-of-scope,¿Cuántos jóvenes de Zapopan tienen diabetes?,Declina: la encuesta no pregunta por diabetes.,,,decline,,yes,indicador inexistente (imita salud Q_41)
+oos-06,out-of-scope,out-of-scope,¿Cuál es el salario promedio en pesos de los jóvenes de Tlaquepaque?,Declina: no hay ingreso en pesos; solo si el ingreso alcanza (Q_32).,,,decline,,yes,indicador cercano pero distinto (Q_32)
+oos-07,out-of-scope,out-of-scope,¿Cuántos homicidios de jóvenes hubo en Tonalá el año pasado?,Declina: la encuesta mide victimización autorreportada no homicidios.,,,decline,,yes,dato administrativo no encuestal (imita Q_46)
+oos-08,out-of-scope,out-of-scope,¿Qué porcentaje de jóvenes de la CDMX usa el Metro para ir a la escuela?,Declina: otra ciudad y medio de transporte inexistente en el AMG.,,,decline,,yes,otra ciudad (imita Q_69)
+oos-09,out-of-scope,out-of-scope,¿Qué tan satisfechos con su vida están los adultos mayores de 60 años en Guadalajara?,Declina: la población es de 15 a 29 años.,,,decline,,yes,población fuera del universo
+oos-10,out-of-scope,out-of-scope,¿Quién va a ganar el mundial de futbol?,Declina: no es un tema de la encuesta.,,,decline,,yes,totalmente fuera de dominio

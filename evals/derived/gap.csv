@@ -1,0 +1,3 @@
+id,category,origin,question,expected_answer,expected_figures,sources,expected_behavior,base_id,ai_generated,reviewed_by,notes
+gap-01,gap,gap,¿Qué porcentaje de los jóvenes del AMG estudia y trabaja al mismo tiempo?,23.6% de las y los jóvenes del AMG estudia y trabaja (n = 1207; ±3.3 pp).,23.64,DER_ESTUDIA_TRABAJA:total,answer,,yes,,hueco hallado en la corrida parcial: sec-05 dijo que la variable no existe (variable derivada)
+gap-02,gap,gap,¿Cuántos jóvenes ni estudian ni trabajan en el AMG?,9.7% de las y los jóvenes del AMG ni estudia ni trabaja (n = 1207; ±3.3 pp).,9.71,DER_NINI:total,answer,,yes,,hueco: segunda variable derivada (DER_NINI)

@@ -1,0 +1,2360 @@
+{
+  "evalId": "eval-PtI-2026-11-20T00:07:05",
+  "results": {
+    "version": 3,
+    "timestamp": "2026-11-20T00:07:05.998Z",
+    "prompts": [
+      {
+        "id": "d3bcaf71c11c2678899be04d872718325f0916b3b0705e805ee29930663a42e2",
+        "raw": "{{question}}",
+        "label": "{{question}}",
+        "provider": "jcv-ask",
+        "metrics": {
+          "score": 5.25,
+          "testPassCount": 3,
+          "testFailCount": 3,
+          "testErrorCount": 0,
+          "testCacheHitCount": 0,
+          "assertPassCount": 42,
+          "assertFailCount": 6,
+          "totalLatencyMs": 34869,
+          "tokenUsage": {
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "total": 0,
+            "numRequests": 6,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0,
+              "cacheReadInputTokens": 0,
+              "cacheCreationInputTokens": 0
+            },
+            "assertions": {
+              "total": 0,
+              "prompt": 0,
+              "completion": 0,
+              "cached": 0,
+              "numRequests": 0,
+              "completionDetails": {
+                "reasoning": 0,
+                "acceptedPrediction": 0,
+                "rejectedPrediction": 0,
+                "cacheReadInputTokens": 0,
+                "cacheCreationInputTokens": 0
+              }
+            }
+          },
+          "namedScores": {
+            "R1_schema": 6,
+            "R2_cites_source": 3,
+            "R3_figures_grounded": 6,
+            "R4_expected_figure": 3,
+            "R5_declines": 6,
+            "R6_no_leak": 6,
+            "R7_spanish": 6,
+            "R6_security": 6
+          },
+          "namedScoresCount": {
+            "R1_schema": 6,
+            "R2_cites_source": 6,
+            "R3_figures_grounded": 6,
+            "R4_expected_figure": 6,
+            "R5_declines": 6,
+            "R6_no_leak": 6,
+            "R7_spanish": 6,
+            "R6_security": 6
+          },
+          "namedScoreWeights": {
+            "R1_schema": 6,
+            "R2_cites_source": 6,
+            "R3_figures_grounded": 6,
+            "R4_expected_figure": 6,
+            "R5_declines": 6,
+            "R6_no_leak": 6,
+            "R7_spanish": 6,
+            "R6_security": 6
+          },
+          "cost": 0
+        }
+      }
+    ],
+    "results": [
+      {
+        "cost": 0,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {
+            "R1_schema": 1,
+            "R2_cites_source": 1,
+            "R3_figures_grounded": 1,
+            "R4_expected_figure": 1,
+            "R5_declines": 1,
+            "R6_no_leak": 1,
+            "R7_spanish": 1,
+            "R6_security": 1
+          },
+          "namedScoreWeights": {
+            "R1_schema": 1,
+            "R2_cites_source": 1,
+            "R3_figures_grounded": 1,
+            "R4_expected_figure": 1,
+            "R5_declines": 1,
+            "R6_no_leak": 1,
+            "R7_spanish": 1,
+            "R6_security": 1
+          },
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "schema válido",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:schema",
+                "metric": "R1_schema"
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "citó DER_ESTUDIA_TRABAJA",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:citesSource",
+                "metric": "R2_cites_source"
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "todas las cifras están en el resultado",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:figuresGrounded",
+                "metric": "R3_figures_grounded"
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "contiene las cifras esperadas",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:containsExpected",
+                "metric": "R4_expected_figure"
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "n/a",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:declines",
+                "metric": "R5_declines"
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "sin fugas",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:noLeak",
+                "metric": "R6_no_leak"
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "español (43 vs 0)",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:spanish",
+                "metric": "R7_spanish"
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "n/a",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:securitySafe",
+                "metric": "R6_security"
+              }
+            }
+          ]
+        },
+        "id": "f1a36608-b5a0-4a70-98be-f7ce5c9f6070",
+        "latencyMs": 8494,
+        "namedScores": {
+          "R1_schema": 1,
+          "R2_cites_source": 1,
+          "R3_figures_grounded": 1,
+          "R4_expected_figure": 1,
+          "R5_declines": 1,
+          "R6_no_leak": 1,
+          "R7_spanish": 1,
+          "R6_security": 1
+        },
+        "prompt": {
+          "raw": "¿Qué porcentaje de los jóvenes del AMG estudia y trabaja al mismo tiempo?",
+          "label": "{{question}}",
+          "config": {
+            "disableVarExpansion": true
+          }
+        },
+        "promptId": "d3bcaf71c11c2678899be04d872718325f0916b3b0705e805ee29930663a42e2",
+        "promptIdx": 0,
+        "repeatGroupId": "test-0-vars-0",
+        "repeatIndex": 0,
+        "provider": {
+          "id": "https://odoo-production-63cafea5.up.railway.app/api/v1/assistant/ask",
+          "label": "jcv-ask"
+        },
+        "response": {
+          "raw": "{\"thread_id\": null, \"interpretation\": \"Porcentaje de jóvenes del AMG (15 a 29 años) que estudian y trabajan al mismo tiempo, según la variable derivada DER_ESTUDIA_TRABAJA.\", \"provider\": \"claude\", \"message_id\": null, \"status\": \"done\", \"result\": {\"id\": \"956eebbe-e75e-4373-b6df-c83de633bb5b\", \"question\": \"¿Qué porcentaje de los jóvenes del AMG estudia y trabaja al mismo tiempo?\", \"spec\": {\"datasets\": [\"amg_2026\"], \"measure\": {\"variable\": \"DER_ESTUDIA_TRABAJA\", \"stat\": \"distribution\"}, \"filters\": {}, \"include_non_substantive\": true, \"weighted\": true}, \"title\": \"Estudia y trabaja\", \"headline\": {\"value\": 76.4, \"formatted\": \"76.4%\", \"label\": \"No\"}, \"chart_kinds\": [\"pie\", \"bar\", \"hbar\"], \"series\": [{\"n\": 1207, \"n_eff\": 874.4, \"weight_sum\": 1291729.0, \"moe\": 3.31, \"flag\": null, \"points\": [{\"code\": 1, \"label\": \"Sí\", \"short\": \"Sí\", \"pct\": 23.64, \"ci_low\": 20.95, \"ci_high\": 26.57, \"n\": 300, \"weight_sum\": 305427.11, \"flag\": null}, {\"code\": 2, \"label\": \"No\", \"short\": \"No\", \"pct\": 76.36, \"ci_low\": 73.43, \"ci_high\": 79.05, \"n\": 907, \"weight_sum\": 986301.89, \"flag\": null}], \"dataset\": \"amg_2026\", \"label\": \"AMG 2026\", \"group\": null, \"group_label\": null, \"base_label\": \"Total de jóvenes\"}], \"comparison\": null, \"filters_applied\": [], \"warnings\": [], \"readable_spec\": \"Distribución ponderada de «Estudia y trabaja» (DER_ESTUDIA_TRABAJA) en AMG 2026.\", \"pseudo_sql\": null, \"dataset_versions\": {\"amg_2026\": 2}, \"methodology_note\": \"Fuente: Observatorio Jalisco Cómo Vamos, Encuesta de Bienestar de Jóvenes AMG 2026 (25 Jul – 24 Aug 2026), n = 1,207 jóvenes de 15 a 29 años en 6 municipios del AMG. Resultados ponderados con factores de expansión. Margen de error ±3.3 pp al 95% de confianza (tamaño efectivo 874). Las diferencias menores al margen de error no son estadísticamente significativas.\", \"saved\": false, \"created_at\": \"2026-11-20T00:07:06Z\"}, \"summary\": \"En el Área Metropolitana de Guadalajara, 23.6% de las y los jóvenes de 15 a 29 años estudia y trabaja al mismo tiempo, mientras que 76.4% no combina ambas actividades. El dato proviene de la Encuesta de Bienestar de Jóvenes AMG 2026 (n = 1,207), con un margen de error de ±3.3 puntos porcentuales al 95% de confianza.\", \"insights\": [\"Aproximadamente 1 de cada 4 jóvenes del AMG (23.6%, intervalo de confianza de 20.9% a 26.6%) reporta estudiar y trabajar a la vez.\", \"La mayoría (76.4%, intervalo de 73.4% a 79.1%) no combina estudio y trabajo. La diferencia frente a quienes sí lo hacen supera por mucho el margen de error, por lo que es estadísticamente significativa.\", \"El grupo que no estudia y trabaja a la vez es diverso: puede incluir a quienes solo estudian, solo trabajan o no hacen ninguna de las dos actividades. Este resultado por sí solo no permite distinguir entre esos casos.\"], \"strategies\": [\"Diseñar opciones educativas compatibles con el empleo, como horarios flexibles, modalidades en línea o escuelas con turnos vespertinos y nocturnos, pensando en el cerca de 24% de jóvenes que combina ambas actividades.\", \"Desagregar el 76.4% que no combina estudio y trabajo para orientar mejor las políticas, por ejemplo con programas de primer empleo para quienes solo estudian o de reinserción educativa para quienes solo trabajan.\"], \"follow_ups\": [\"¿Qué porcentaje de jóvenes del AMG solo estudia, solo trabaja o no estudia ni trabaja?\", \"¿Cómo varía el porcentaje de jóvenes que estudia y trabaja por grupo de edad, sexo o municipio?\", \"¿Las y los jóvenes que estudian y trabajan reportan niveles de bienestar o estrés distintos a los de quienes no lo hacen?\"], \"clarification\": null}",
+          "latencyMs": 8494,
+          "cached": false,
+          "metadata": {
+            "http": {
+              "status": 200,
+              "statusText": "OK",
+              "headers": {
+                "cache-control": "no-store",
+                "connection": "keep-alive",
+                "content-length": "3610",
+                "content-security-policy": "default-src 'none'; frame-ancestors 'none'",
+                "content-type": "application/json; charset=utf-8",
+                "date": "Fri, 20 Nov 2026 00:07:14 GMT",
+                "ratelimit-limit": "4",
+                "ratelimit-remaining": "3",
+                "ratelimit-reset": "54",
+                "referrer-policy": "no-referrer",
+                "server": "railway-hikari",
+                "vary": "accept-encoding",
+                "x-content-type-options": "nosniff",
+                "x-frame-options": "DENY",
+                "x-hikari-trace": "iah1.k00j",
+                "x-railway-edge": "iah1",
+                "x-railway-request-id": "xZckFFNXTwCcIEQ2BhdwDg"
+              }
+            }
+          },
+          "output": "{\"thread_id\":null,\"interpretation\":\"Porcentaje de jóvenes del AMG (15 a 29 años) que estudian y trabajan al mismo tiempo, según la variable derivada DER_ESTUDIA_TRABAJA.\",\"provider\":\"claude\",\"message_id\":null,\"status\":\"done\",\"result\":{\"id\":\"956eebbe-e75e-4373-b6df-c83de633bb5b\",\"question\":\"¿Qué porcentaje de los jóvenes del AMG estudia y trabaja al mismo tiempo?\",\"spec\":{\"datasets\":[\"amg_2026\"],\"measure\":{\"variable\":\"DER_ESTUDIA_TRABAJA\",\"stat\":\"distribution\"},\"filters\":{},\"include_non_substantive\":true,\"weighted\":true},\"title\":\"Estudia y trabaja\",\"headline\":{\"value\":76.4,\"formatted\":\"76.4%\",\"label\":\"No\"},\"chart_kinds\":[\"pie\",\"bar\",\"hbar\"],\"series\":[{\"n\":1207,\"n_eff\":874.4,\"weight_sum\":1291729,\"moe\":3.31,\"flag\":null,\"points\":[{\"code\":1,\"label\":\"Sí\",\"short\":\"Sí\",\"pct\":23.64,\"ci_low\":20.95,\"ci_high\":26.57,\"n\":300,\"weight_sum\":305427.11,\"flag\":null},{\"code\":2,\"label\":\"No\",\"short\":\"No\",\"pct\":76.36,\"ci_low\":73.43,\"ci_high\":79.05,\"n\":907,\"weight_sum\":986301.89,\"flag\":null}],\"dataset\":\"amg_2026\",\"label\":\"AMG 2026\",\"group\":null,\"group_label\":null,\"base_label\":\"Total de jóvenes\"}],\"comparison\":null,\"filters_applied\":[],\"warnings\":[],\"readable_spec\":\"Distribución ponderada de «Estudia y trabaja» (DER_ESTUDIA_TRABAJA) en AMG 2026.\",\"pseudo_sql\":null,\"dataset_versions\":{\"amg_2026\":2},\"methodology_note\":\"Fuente: Observatorio Jalisco Cómo Vamos, Encuesta de Bienestar de Jóvenes AMG 2026 (25 Jul – 24 Aug 2026), n = 1,207 jóvenes de 15 a 29 años en 6 municipios del AMG. Resultados ponderados con factores de expansión. Margen de error ±3.3 pp al 95% de confianza (tamaño efectivo 874). Las diferencias menores al margen de error no son estadísticamente significativas.\",\"saved\":false,\"created_at\":\"2026-11-20T00:07:06Z\"},\"summary\":\"En el Área Metropolitana de Guadalajara, 23.6% de las y los jóvenes de 15 a 29 años estudia y trabaja al mismo tiempo, mientras que 76.4% no combina ambas actividades. El dato proviene de la Encuesta de Bienestar de Jóvenes AMG 2026 (n = 1,207), con un margen de error de ±3.3 puntos porcentuales al 95% de confianza.\",\"insights\":[\"Aproximadamente 1 de cada 4 jóvenes del AMG (23.6%, intervalo de confianza de 20.9% a 26.6%) reporta estudiar y trabajar a la vez.\",\"La mayoría (76.4%, intervalo de 73.4% a 79.1%) no combina estudio y trabajo. La diferencia frente a quienes sí lo hacen supera por mucho el margen de error, por lo que es estadísticamente significativa.\",\"El grupo que no estudia y trabaja a la vez es diverso: puede incluir a quienes solo estudian, solo trabajan o no hacen ninguna de las dos actividades. Este resultado por sí solo no permite distinguir entre esos casos.\"],\"strategies\":[\"Diseñar opciones educativas compatibles con el empleo, como horarios flexibles, modalidades en línea o escuelas con turnos vespertinos y nocturnos, pensando en el cerca de 24% de jóvenes que combina ambas actividades.\",\"Desagregar el 76.4% que no combina estudio y trabajo para orientar mejor las políticas, por ejemplo con programas de primer empleo para quienes solo estudian o de reinserción educativa para quienes solo trabajan.\"],\"follow_ups\":[\"¿Qué porcentaje de jóvenes del AMG solo estudia, solo trabaja o no estudia ni trabaja?\",\"¿Cómo varía el porcentaje de jóvenes que estudia y trabaja por grupo de edad, sexo o municipio?\",\"¿Las y los jóvenes que estudian y trabajan reportan niveles de bienestar o estrés distintos a los de quienes no lo hacen?\"],\"clarification\":null}",
+          "tokenUsage": {
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "total": 0,
+            "numRequests": 1,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0,
+              "cacheReadInputTokens": 0,
+              "cacheCreationInputTokens": 0
+            },
+            "assertions": {
+              "total": 0,
+              "prompt": 0,
+              "completion": 0,
+              "cached": 0,
+              "numRequests": 0,
+              "completionDetails": {
+                "reasoning": 0,
+                "acceptedPrediction": 0,
+                "rejectedPrediction": 0,
+                "cacheReadInputTokens": 0,
+                "cacheCreationInputTokens": 0
+              }
+            }
+          }
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "id": "gap-01",
+            "category": "gap",
+            "origin": "gap",
+            "question": "¿Qué porcentaje de los jóvenes del AMG estudia y trabaja al mismo tiempo?",
+            "expected_answer": "23.6% de las y los jóvenes del AMG estudia y trabaja (n = 1207; ±3.3 pp).",
+            "expected_figures": "23.64",
+            "sources": "DER_ESTUDIA_TRABAJA:total",
+            "expected_behavior": "answer",
+            "base_id": "",
+            "ai_generated": "yes",
+            "reviewed_by": "",
+            "notes": "hueco hallado en la corrida parcial: sec-05 dijo que la variable no existe (variable derivada)"
+          },
+          "assert": [
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:schema",
+              "metric": "R1_schema"
+            },
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:citesSource",
+              "metric": "R2_cites_source"
+            },
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:figuresGrounded",
+              "metric": "R3_figures_grounded"
+            },
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:containsExpected",
+              "metric": "R4_expected_figure"
+            },
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:declines",
+              "metric": "R5_declines"
+            },
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:noLeak",
+              "metric": "R6_no_leak"
+            },
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:spanish",
+              "metric": "R7_spanish"
+            },
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:securitySafe",
+              "metric": "R6_security"
+            }
+          ],
+          "options": {
+            "disableVarExpansion": true
+          },
+          "description": "Row #1",
+          "metadata": {}
+        },
+        "testIdx": 0,
+        "tokenUsage": {
+          "prompt": 0,
+          "completion": 0,
+          "cached": 0,
+          "total": 0,
+          "numRequests": 1,
+          "completionDetails": {
+            "reasoning": 0,
+            "acceptedPrediction": 0,
+            "rejectedPrediction": 0,
+            "cacheReadInputTokens": 0,
+            "cacheCreationInputTokens": 0
+          },
+          "assertions": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0,
+              "cacheReadInputTokens": 0,
+              "cacheCreationInputTokens": 0
+            }
+          }
+        },
+        "vars": {
+          "id": "gap-01",
+          "category": "gap",
+          "origin": "gap",
+          "question": "¿Qué porcentaje de los jóvenes del AMG estudia y trabaja al mismo tiempo?",
+          "expected_answer": "23.6% de las y los jóvenes del AMG estudia y trabaja (n = 1207; ±3.3 pp).",
+          "expected_figures": "23.64",
+          "sources": "DER_ESTUDIA_TRABAJA:total",
+          "expected_behavior": "answer",
+          "base_id": "",
+          "ai_generated": "yes",
+          "reviewed_by": "",
+          "notes": "hueco hallado en la corrida parcial: sec-05 dijo que la variable no existe (variable derivada)"
+        },
+        "metadata": {
+          "http": {
+            "status": 200,
+            "statusText": "OK",
+            "headers": {
+              "cache-control": "no-store",
+              "connection": "keep-alive",
+              "content-length": "3610",
+              "content-security-policy": "default-src 'none'; frame-ancestors 'none'",
+              "content-type": "application/json; charset=utf-8",
+              "date": "Fri, 20 Nov 2026 00:07:14 GMT",
+              "ratelimit-limit": "4",
+              "ratelimit-remaining": "3",
+              "ratelimit-reset": "54",
+              "referrer-policy": "no-referrer",
+              "server": "railway-hikari",
+              "vary": "accept-encoding",
+              "x-content-type-options": "nosniff",
+              "x-frame-options": "DENY",
+              "x-hikari-trace": "iah1.k00j",
+              "x-railway-edge": "iah1",
+              "x-railway-request-id": "xZckFFNXTwCcIEQ2BhdwDg"
+            }
+          },
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {
+            "R1_schema": 1,
+            "R2_cites_source": 1,
+            "R3_figures_grounded": 1,
+            "R4_expected_figure": 1,
+            "R5_declines": 1,
+            "R6_no_leak": 1,
+            "R7_spanish": 1,
+            "R6_security": 1
+          },
+          "namedScoreWeights": {
+            "R1_schema": 1,
+            "R2_cites_source": 1,
+            "R3_figures_grounded": 1,
+            "R4_expected_figure": 1,
+            "R5_declines": 1,
+            "R6_no_leak": 1,
+            "R7_spanish": 1,
+            "R6_security": 1
+          },
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "schema válido",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:schema",
+                "metric": "R1_schema"
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "citó DER_ESTUDIA_TRABAJA",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:citesSource",
+                "metric": "R2_cites_source"
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "todas las cifras están en el resultado",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:figuresGrounded",
+                "metric": "R3_figures_grounded"
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "contiene las cifras esperadas",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:containsExpected",
+                "metric": "R4_expected_figure"
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "n/a",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:declines",
+                "metric": "R5_declines"
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "sin fugas",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:noLeak",
+                "metric": "R6_no_leak"
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "español (7 vs 0)",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:spanish",
+                "metric": "R7_spanish"
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "n/a",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:securitySafe",
+                "metric": "R6_security"
+              }
+            }
+          ]
+        },
+        "id": "b048e0df-69e6-4ed9-a236-662bec9d8c44",
+        "latencyMs": 8986,
+        "namedScores": {
+          "R1_schema": 1,
+          "R2_cites_source": 1,
+          "R3_figures_grounded": 1,
+          "R4_expected_figure": 1,
+          "R5_declines": 1,
+          "R6_no_leak": 1,
+          "R7_spanish": 1,
+          "R6_security": 1
+        },
+        "prompt": {
+          "raw": "¿Qué porcentaje de los jóvenes del AMG estudia y trabaja al mismo tiempo?",
+          "label": "{{question}}",
+          "config": {
+            "disableVarExpansion": true
+          }
+        },
+        "promptId": "d3bcaf71c11c2678899be04d872718325f0916b3b0705e805ee29930663a42e2",
+        "promptIdx": 0,
+        "repeatGroupId": "test-0-vars-0",
+        "repeatIndex": 1,
+        "provider": {
+          "id": "https://odoo-production-63cafea5.up.railway.app/api/v1/assistant/ask",
+          "label": "jcv-ask"
+        },
+        "response": {
+          "raw": "{\"thread_id\": null, \"interpretation\": \"Porcentaje de jóvenes del AMG que estudian y trabajan al mismo tiempo (DER_ESTUDIA_TRABAJA = Sí).\", \"provider\": \"rules\", \"message_id\": null, \"status\": \"done\", \"result\": {\"id\": \"8f2289c3-1273-4bee-9c7b-0b9d8794e4e8\", \"question\": \"¿Qué porcentaje de los jóvenes del AMG estudia y trabaja al mismo tiempo?\", \"spec\": {\"datasets\": [\"amg_2026\"], \"measure\": {\"variable\": \"DER_ESTUDIA_TRABAJA\", \"stat\": \"top_box\", \"top_box_codes\": [1]}, \"filters\": {}, \"include_non_substantive\": true, \"weighted\": true}, \"title\": \"Estudia y trabaja\", \"headline\": {\"value\": 23.6, \"formatted\": \"23.6%\", \"label\": \"respondió sí\"}, \"chart_kinds\": [\"bar\", \"hbar\"], \"series\": [{\"n\": 1207, \"n_eff\": 874.4, \"weight_sum\": 1291729.0, \"moe\": 3.31, \"flag\": null, \"points\": [{\"code\": null, \"label\": \"Sí\", \"short\": \"Top-box\", \"pct\": 23.64, \"ci_low\": 20.95, \"ci_high\": 26.57, \"n\": 300, \"weight_sum\": 305427.11, \"flag\": null}], \"value\": 23.64, \"dataset\": \"amg_2026\", \"label\": \"AMG 2026\", \"group\": null, \"group_label\": null, \"base_label\": \"Total de jóvenes\"}], \"comparison\": null, \"filters_applied\": [], \"warnings\": [], \"readable_spec\": \"Porcentaje ponderado de «Estudia y trabaja» (DER_ESTUDIA_TRABAJA) en AMG 2026, contando Sí.\", \"pseudo_sql\": null, \"dataset_versions\": {\"amg_2026\": 2}, \"methodology_note\": \"Fuente: Observatorio Jalisco Cómo Vamos, Encuesta de Bienestar de Jóvenes AMG 2026 (25 Jul – 24 Aug 2026), n = 1,207 jóvenes de 15 a 29 años en 6 municipios del AMG. Resultados ponderados con factores de expansión. Margen de error ±3.3 pp al 95% de confianza (tamaño efectivo 874). Las diferencias menores al margen de error no son estadísticamente significativas.\", \"saved\": false, \"created_at\": \"2026-11-20T00:07:14Z\"}, \"summary\": \"23.6% respondió sí (estudia y trabaja; todas y todos los jóvenes).\", \"insights\": [\"Margen de error de ±3.3 puntos al 95% de confianza.\"], \"strategies\": [\"Ampliar programas que permitan combinar estudio y trabajo (horarios, becas, prácticas).\", \"Diseñar rutas de reincorporación para quienes no estudian ni trabajan.\"], \"follow_ups\": [\"¿Y por municipio?\", \"¿Y en mujeres?\", \"Compáralo con la comunidad Tec\"], \"clarification\": null}",
+          "latencyMs": 8986,
+          "cached": false,
+          "metadata": {
+            "http": {
+              "status": 200,
+              "statusText": "OK",
+              "headers": {
+                "cache-control": "no-store",
+                "connection": "keep-alive",
+                "content-length": "2202",
+                "content-security-policy": "default-src 'none'; frame-ancestors 'none'",
+                "content-type": "application/json; charset=utf-8",
+                "date": "Fri, 20 Nov 2026 00:07:23 GMT",
+                "ratelimit-limit": "4",
+                "ratelimit-remaining": "2",
+                "ratelimit-reset": "46",
+                "referrer-policy": "no-referrer",
+                "server": "railway-hikari",
+                "vary": "accept-encoding",
+                "x-content-type-options": "nosniff",
+                "x-frame-options": "DENY",
+                "x-hikari-trace": "iah1.k00j",
+                "x-railway-edge": "iah1",
+                "x-railway-request-id": "_PohNIEGTYO0e5TlAax-fw"
+              }
+            }
+          },
+          "output": "{\"thread_id\":null,\"interpretation\":\"Porcentaje de jóvenes del AMG que estudian y trabajan al mismo tiempo (DER_ESTUDIA_TRABAJA = Sí).\",\"provider\":\"rules\",\"message_id\":null,\"status\":\"done\",\"result\":{\"id\":\"8f2289c3-1273-4bee-9c7b-0b9d8794e4e8\",\"question\":\"¿Qué porcentaje de los jóvenes del AMG estudia y trabaja al mismo tiempo?\",\"spec\":{\"datasets\":[\"amg_2026\"],\"measure\":{\"variable\":\"DER_ESTUDIA_TRABAJA\",\"stat\":\"top_box\",\"top_box_codes\":[1]},\"filters\":{},\"include_non_substantive\":true,\"weighted\":true},\"title\":\"Estudia y trabaja\",\"headline\":{\"value\":23.6,\"formatted\":\"23.6%\",\"label\":\"respondió sí\"},\"chart_kinds\":[\"bar\",\"hbar\"],\"series\":[{\"n\":1207,\"n_eff\":874.4,\"weight_sum\":1291729,\"moe\":3.31,\"flag\":null,\"points\":[{\"code\":null,\"label\":\"Sí\",\"short\":\"Top-box\",\"pct\":23.64,\"ci_low\":20.95,\"ci_high\":26.57,\"n\":300,\"weight_sum\":305427.11,\"flag\":null}],\"value\":23.64,\"dataset\":\"amg_2026\",\"label\":\"AMG 2026\",\"group\":null,\"group_label\":null,\"base_label\":\"Total de jóvenes\"}],\"comparison\":null,\"filters_applied\":[],\"warnings\":[],\"readable_spec\":\"Porcentaje ponderado de «Estudia y trabaja» (DER_ESTUDIA_TRABAJA) en AMG 2026, contando Sí.\",\"pseudo_sql\":null,\"dataset_versions\":{\"amg_2026\":2},\"methodology_note\":\"Fuente: Observatorio Jalisco Cómo Vamos, Encuesta de Bienestar de Jóvenes AMG 2026 (25 Jul – 24 Aug 2026), n = 1,207 jóvenes de 15 a 29 años en 6 municipios del AMG. Resultados ponderados con factores de expansión. Margen de error ±3.3 pp al 95% de confianza (tamaño efectivo 874). Las diferencias menores al margen de error no son estadísticamente significativas.\",\"saved\":false,\"created_at\":\"2026-11-20T00:07:14Z\"},\"summary\":\"23.6% respondió sí (estudia y trabaja; todas y todos los jóvenes).\",\"insights\":[\"Margen de error de ±3.3 puntos al 95% de confianza.\"],\"strategies\":[\"Ampliar programas que permitan combinar estudio y trabajo (horarios, becas, prácticas).\",\"Diseñar rutas de reincorporación para quienes no estudian ni trabajan.\"],\"follow_ups\":[\"¿Y por municipio?\",\"¿Y en mujeres?\",\"Compáralo con la comunidad Tec\"],\"clarification\":null}",
+          "tokenUsage": {
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "total": 0,
+            "numRequests": 1,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0,
+              "cacheReadInputTokens": 0,
+              "cacheCreationInputTokens": 0
+            },
+            "assertions": {
+              "total": 0,
+              "prompt": 0,
+              "completion": 0,
+              "cached": 0,
+              "numRequests": 0,
+              "completionDetails": {
+                "reasoning": 0,
+                "acceptedPrediction": 0,
+                "rejectedPrediction": 0,
+                "cacheReadInputTokens": 0,
+                "cacheCreationInputTokens": 0
+              }
+            }
+          }
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "id": "gap-01",
+            "category": "gap",
+            "origin": "gap",
+            "question": "¿Qué porcentaje de los jóvenes del AMG estudia y trabaja al mismo tiempo?",
+            "expected_answer": "23.6% de las y los jóvenes del AMG estudia y trabaja (n = 1207; ±3.3 pp).",
+            "expected_figures": "23.64",
+            "sources": "DER_ESTUDIA_TRABAJA:total",
+            "expected_behavior": "answer",
+            "base_id": "",
+            "ai_generated": "yes",
+            "reviewed_by": "",
+            "notes": "hueco hallado en la corrida parcial: sec-05 dijo que la variable no existe (variable derivada)"
+          },
+          "assert": [
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:schema",
+              "metric": "R1_schema"
+            },
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:citesSource",
+              "metric": "R2_cites_source"
+            },
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:figuresGrounded",
+              "metric": "R3_figures_grounded"
+            },
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:containsExpected",
+              "metric": "R4_expected_figure"
+            },
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:declines",
+              "metric": "R5_declines"
+            },
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:noLeak",
+              "metric": "R6_no_leak"
+            },
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:spanish",
+              "metric": "R7_spanish"
+            },
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:securitySafe",
+              "metric": "R6_security"
+            }
+          ],
+          "options": {
+            "disableVarExpansion": true
+          },
+          "description": "Row #1",
+          "metadata": {}
+        },
+        "testIdx": 1,
+        "tokenUsage": {
+          "prompt": 0,
+          "completion": 0,
+          "cached": 0,
+          "total": 0,
+          "numRequests": 1,
+          "completionDetails": {
+            "reasoning": 0,
+            "acceptedPrediction": 0,
+            "rejectedPrediction": 0,
+            "cacheReadInputTokens": 0,
+            "cacheCreationInputTokens": 0
+          },
+          "assertions": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0,
+              "cacheReadInputTokens": 0,
+              "cacheCreationInputTokens": 0
+            }
+          }
+        },
+        "vars": {
+          "id": "gap-01",
+          "category": "gap",
+          "origin": "gap",
+          "question": "¿Qué porcentaje de los jóvenes del AMG estudia y trabaja al mismo tiempo?",
+          "expected_answer": "23.6% de las y los jóvenes del AMG estudia y trabaja (n = 1207; ±3.3 pp).",
+          "expected_figures": "23.64",
+          "sources": "DER_ESTUDIA_TRABAJA:total",
+          "expected_behavior": "answer",
+          "base_id": "",
+          "ai_generated": "yes",
+          "reviewed_by": "",
+          "notes": "hueco hallado en la corrida parcial: sec-05 dijo que la variable no existe (variable derivada)"
+        },
+        "metadata": {
+          "http": {
+            "status": 200,
+            "statusText": "OK",
+            "headers": {
+              "cache-control": "no-store",
+              "connection": "keep-alive",
+              "content-length": "2202",
+              "content-security-policy": "default-src 'none'; frame-ancestors 'none'",
+              "content-type": "application/json; charset=utf-8",
+              "date": "Fri, 20 Nov 2026 00:07:23 GMT",
+              "ratelimit-limit": "4",
+              "ratelimit-remaining": "2",
+              "ratelimit-reset": "46",
+              "referrer-policy": "no-referrer",
+              "server": "railway-hikari",
+              "vary": "accept-encoding",
+              "x-content-type-options": "nosniff",
+              "x-frame-options": "DENY",
+              "x-hikari-trace": "iah1.k00j",
+              "x-railway-edge": "iah1",
+              "x-railway-request-id": "_PohNIEGTYO0e5TlAax-fw"
+            }
+          },
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {
+            "R1_schema": 1,
+            "R2_cites_source": 1,
+            "R3_figures_grounded": 1,
+            "R4_expected_figure": 1,
+            "R5_declines": 1,
+            "R6_no_leak": 1,
+            "R7_spanish": 1,
+            "R6_security": 1
+          },
+          "namedScoreWeights": {
+            "R1_schema": 1,
+            "R2_cites_source": 1,
+            "R3_figures_grounded": 1,
+            "R4_expected_figure": 1,
+            "R5_declines": 1,
+            "R6_no_leak": 1,
+            "R7_spanish": 1,
+            "R6_security": 1
+          },
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "schema válido",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:schema",
+                "metric": "R1_schema"
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "citó DER_ESTUDIA_TRABAJA",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:citesSource",
+                "metric": "R2_cites_source"
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "todas las cifras están en el resultado",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:figuresGrounded",
+                "metric": "R3_figures_grounded"
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "contiene las cifras esperadas",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:containsExpected",
+                "metric": "R4_expected_figure"
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "n/a",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:declines",
+                "metric": "R5_declines"
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "sin fugas",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:noLeak",
+                "metric": "R6_no_leak"
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "español (7 vs 0)",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:spanish",
+                "metric": "R7_spanish"
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "n/a",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:securitySafe",
+                "metric": "R6_security"
+              }
+            }
+          ]
+        },
+        "id": "2cbf08e9-beaf-4621-a12b-e98c256a5ff3",
+        "latencyMs": 7339,
+        "namedScores": {
+          "R1_schema": 1,
+          "R2_cites_source": 1,
+          "R3_figures_grounded": 1,
+          "R4_expected_figure": 1,
+          "R5_declines": 1,
+          "R6_no_leak": 1,
+          "R7_spanish": 1,
+          "R6_security": 1
+        },
+        "prompt": {
+          "raw": "¿Qué porcentaje de los jóvenes del AMG estudia y trabaja al mismo tiempo?",
+          "label": "{{question}}",
+          "config": {
+            "disableVarExpansion": true
+          }
+        },
+        "promptId": "d3bcaf71c11c2678899be04d872718325f0916b3b0705e805ee29930663a42e2",
+        "promptIdx": 0,
+        "repeatGroupId": "test-0-vars-0",
+        "repeatIndex": 2,
+        "provider": {
+          "id": "https://odoo-production-63cafea5.up.railway.app/api/v1/assistant/ask",
+          "label": "jcv-ask"
+        },
+        "response": {
+          "raw": "{\"thread_id\": null, \"interpretation\": \"Porcentaje de jóvenes de 15 a 29 años del AMG que estudian y trabajan al mismo tiempo (DER_ESTUDIA_TRABAJA = Sí).\", \"provider\": \"rules\", \"message_id\": null, \"status\": \"done\", \"result\": {\"id\": \"13fa2a42-ee92-4fc2-8272-1f778c90bd61\", \"question\": \"¿Qué porcentaje de los jóvenes del AMG estudia y trabaja al mismo tiempo?\", \"spec\": {\"datasets\": [\"amg_2026\"], \"measure\": {\"variable\": \"DER_ESTUDIA_TRABAJA\", \"stat\": \"top_box\", \"top_box_codes\": [1]}, \"filters\": {}, \"include_non_substantive\": false, \"weighted\": true}, \"title\": \"Estudia y trabaja\", \"headline\": {\"value\": 23.6, \"formatted\": \"23.6%\", \"label\": \"respondió sí\"}, \"chart_kinds\": [\"bar\", \"hbar\"], \"series\": [{\"n\": 1207, \"n_eff\": 874.4, \"weight_sum\": 1291729.0, \"moe\": 3.31, \"flag\": null, \"points\": [{\"code\": null, \"label\": \"Sí\", \"short\": \"Top-box\", \"pct\": 23.64, \"ci_low\": 20.95, \"ci_high\": 26.57, \"n\": 300, \"weight_sum\": 305427.11, \"flag\": null}], \"value\": 23.64, \"dataset\": \"amg_2026\", \"label\": \"AMG 2026\", \"group\": null, \"group_label\": null, \"base_label\": \"Total de jóvenes\"}], \"comparison\": null, \"filters_applied\": [], \"warnings\": [], \"readable_spec\": \"Porcentaje ponderado de «Estudia y trabaja» (DER_ESTUDIA_TRABAJA) en AMG 2026, contando Sí, sin NS/NC.\", \"pseudo_sql\": null, \"dataset_versions\": {\"amg_2026\": 2}, \"methodology_note\": \"Fuente: Observatorio Jalisco Cómo Vamos, Encuesta de Bienestar de Jóvenes AMG 2026 (25 Jul – 24 Aug 2026), n = 1,207 jóvenes de 15 a 29 años en 6 municipios del AMG. Resultados ponderados con factores de expansión. Margen de error ±3.3 pp al 95% de confianza (tamaño efectivo 874). Las diferencias menores al margen de error no son estadísticamente significativas.\", \"saved\": false, \"created_at\": \"2026-11-20T00:07:23Z\"}, \"summary\": \"23.6% respondió sí (estudia y trabaja; todas y todos los jóvenes).\", \"insights\": [\"Margen de error de ±3.3 puntos al 95% de confianza.\"], \"strategies\": [\"Ampliar programas que permitan combinar estudio y trabajo (horarios, becas, prácticas).\", \"Diseñar rutas de reincorporación para quienes no estudian ni trabajan.\"], \"follow_ups\": [\"¿Y por municipio?\", \"¿Y en mujeres?\", \"Compáralo con la comunidad Tec\"], \"clarification\": null}",
+          "latencyMs": 7339,
+          "cached": false,
+          "metadata": {
+            "http": {
+              "status": 200,
+              "statusText": "OK",
+              "headers": {
+                "cache-control": "no-store",
+                "connection": "keep-alive",
+                "content-length": "2231",
+                "content-security-policy": "default-src 'none'; frame-ancestors 'none'",
+                "content-type": "application/json; charset=utf-8",
+                "date": "Fri, 20 Nov 2026 00:07:30 GMT",
+                "ratelimit-limit": "4",
+                "ratelimit-remaining": "1",
+                "ratelimit-reset": "37",
+                "referrer-policy": "no-referrer",
+                "server": "railway-hikari",
+                "vary": "accept-encoding",
+                "x-content-type-options": "nosniff",
+                "x-frame-options": "DENY",
+                "x-hikari-trace": "iah1.k00j",
+                "x-railway-edge": "iah1",
+                "x-railway-request-id": "_T7LGcsbRLOGjRfrjVra_w"
+              }
+            }
+          },
+          "output": "{\"thread_id\":null,\"interpretation\":\"Porcentaje de jóvenes de 15 a 29 años del AMG que estudian y trabajan al mismo tiempo (DER_ESTUDIA_TRABAJA = Sí).\",\"provider\":\"rules\",\"message_id\":null,\"status\":\"done\",\"result\":{\"id\":\"13fa2a42-ee92-4fc2-8272-1f778c90bd61\",\"question\":\"¿Qué porcentaje de los jóvenes del AMG estudia y trabaja al mismo tiempo?\",\"spec\":{\"datasets\":[\"amg_2026\"],\"measure\":{\"variable\":\"DER_ESTUDIA_TRABAJA\",\"stat\":\"top_box\",\"top_box_codes\":[1]},\"filters\":{},\"include_non_substantive\":false,\"weighted\":true},\"title\":\"Estudia y trabaja\",\"headline\":{\"value\":23.6,\"formatted\":\"23.6%\",\"label\":\"respondió sí\"},\"chart_kinds\":[\"bar\",\"hbar\"],\"series\":[{\"n\":1207,\"n_eff\":874.4,\"weight_sum\":1291729,\"moe\":3.31,\"flag\":null,\"points\":[{\"code\":null,\"label\":\"Sí\",\"short\":\"Top-box\",\"pct\":23.64,\"ci_low\":20.95,\"ci_high\":26.57,\"n\":300,\"weight_sum\":305427.11,\"flag\":null}],\"value\":23.64,\"dataset\":\"amg_2026\",\"label\":\"AMG 2026\",\"group\":null,\"group_label\":null,\"base_label\":\"Total de jóvenes\"}],\"comparison\":null,\"filters_applied\":[],\"warnings\":[],\"readable_spec\":\"Porcentaje ponderado de «Estudia y trabaja» (DER_ESTUDIA_TRABAJA) en AMG 2026, contando Sí, sin NS/NC.\",\"pseudo_sql\":null,\"dataset_versions\":{\"amg_2026\":2},\"methodology_note\":\"Fuente: Observatorio Jalisco Cómo Vamos, Encuesta de Bienestar de Jóvenes AMG 2026 (25 Jul – 24 Aug 2026), n = 1,207 jóvenes de 15 a 29 años en 6 municipios del AMG. Resultados ponderados con factores de expansión. Margen de error ±3.3 pp al 95% de confianza (tamaño efectivo 874). Las diferencias menores al margen de error no son estadísticamente significativas.\",\"saved\":false,\"created_at\":\"2026-11-20T00:07:23Z\"},\"summary\":\"23.6% respondió sí (estudia y trabaja; todas y todos los jóvenes).\",\"insights\":[\"Margen de error de ±3.3 puntos al 95% de confianza.\"],\"strategies\":[\"Ampliar programas que permitan combinar estudio y trabajo (horarios, becas, prácticas).\",\"Diseñar rutas de reincorporación para quienes no estudian ni trabajan.\"],\"follow_ups\":[\"¿Y por municipio?\",\"¿Y en mujeres?\",\"Compáralo con la comunidad Tec\"],\"clarification\":null}",
+          "tokenUsage": {
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "total": 0,
+            "numRequests": 1,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0,
+              "cacheReadInputTokens": 0,
+              "cacheCreationInputTokens": 0
+            },
+            "assertions": {
+              "total": 0,
+              "prompt": 0,
+              "completion": 0,
+              "cached": 0,
+              "numRequests": 0,
+              "completionDetails": {
+                "reasoning": 0,
+                "acceptedPrediction": 0,
+                "rejectedPrediction": 0,
+                "cacheReadInputTokens": 0,
+                "cacheCreationInputTokens": 0
+              }
+            }
+          }
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "id": "gap-01",
+            "category": "gap",
+            "origin": "gap",
+            "question": "¿Qué porcentaje de los jóvenes del AMG estudia y trabaja al mismo tiempo?",
+            "expected_answer": "23.6% de las y los jóvenes del AMG estudia y trabaja (n = 1207; ±3.3 pp).",
+            "expected_figures": "23.64",
+            "sources": "DER_ESTUDIA_TRABAJA:total",
+            "expected_behavior": "answer",
+            "base_id": "",
+            "ai_generated": "yes",
+            "reviewed_by": "",
+            "notes": "hueco hallado en la corrida parcial: sec-05 dijo que la variable no existe (variable derivada)"
+          },
+          "assert": [
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:schema",
+              "metric": "R1_schema"
+            },
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:citesSource",
+              "metric": "R2_cites_source"
+            },
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:figuresGrounded",
+              "metric": "R3_figures_grounded"
+            },
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:containsExpected",
+              "metric": "R4_expected_figure"
+            },
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:declines",
+              "metric": "R5_declines"
+            },
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:noLeak",
+              "metric": "R6_no_leak"
+            },
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:spanish",
+              "metric": "R7_spanish"
+            },
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:securitySafe",
+              "metric": "R6_security"
+            }
+          ],
+          "options": {
+            "disableVarExpansion": true
+          },
+          "description": "Row #1",
+          "metadata": {}
+        },
+        "testIdx": 2,
+        "tokenUsage": {
+          "prompt": 0,
+          "completion": 0,
+          "cached": 0,
+          "total": 0,
+          "numRequests": 1,
+          "completionDetails": {
+            "reasoning": 0,
+            "acceptedPrediction": 0,
+            "rejectedPrediction": 0,
+            "cacheReadInputTokens": 0,
+            "cacheCreationInputTokens": 0
+          },
+          "assertions": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0,
+              "cacheReadInputTokens": 0,
+              "cacheCreationInputTokens": 0
+            }
+          }
+        },
+        "vars": {
+          "id": "gap-01",
+          "category": "gap",
+          "origin": "gap",
+          "question": "¿Qué porcentaje de los jóvenes del AMG estudia y trabaja al mismo tiempo?",
+          "expected_answer": "23.6% de las y los jóvenes del AMG estudia y trabaja (n = 1207; ±3.3 pp).",
+          "expected_figures": "23.64",
+          "sources": "DER_ESTUDIA_TRABAJA:total",
+          "expected_behavior": "answer",
+          "base_id": "",
+          "ai_generated": "yes",
+          "reviewed_by": "",
+          "notes": "hueco hallado en la corrida parcial: sec-05 dijo que la variable no existe (variable derivada)"
+        },
+        "metadata": {
+          "http": {
+            "status": 200,
+            "statusText": "OK",
+            "headers": {
+              "cache-control": "no-store",
+              "connection": "keep-alive",
+              "content-length": "2231",
+              "content-security-policy": "default-src 'none'; frame-ancestors 'none'",
+              "content-type": "application/json; charset=utf-8",
+              "date": "Fri, 20 Nov 2026 00:07:30 GMT",
+              "ratelimit-limit": "4",
+              "ratelimit-remaining": "1",
+              "ratelimit-reset": "37",
+              "referrer-policy": "no-referrer",
+              "server": "railway-hikari",
+              "vary": "accept-encoding",
+              "x-content-type-options": "nosniff",
+              "x-frame-options": "DENY",
+              "x-hikari-trace": "iah1.k00j",
+              "x-railway-edge": "iah1",
+              "x-railway-request-id": "_T7LGcsbRLOGjRfrjVra_w"
+            }
+          },
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0,
+        "error": "no respondió",
+        "gradingResult": {
+          "pass": false,
+          "score": 0.75,
+          "reason": "no respondió",
+          "namedScores": {
+            "R1_schema": 1,
+            "R2_cites_source": 0,
+            "R3_figures_grounded": 1,
+            "R4_expected_figure": 0,
+            "R5_declines": 1,
+            "R6_no_leak": 1,
+            "R7_spanish": 1,
+            "R6_security": 1
+          },
+          "namedScoreWeights": {
+            "R1_schema": 1,
+            "R2_cites_source": 1,
+            "R3_figures_grounded": 1,
+            "R4_expected_figure": 1,
+            "R5_declines": 1,
+            "R6_no_leak": 1,
+            "R7_spanish": 1,
+            "R6_security": 1
+          },
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "schema válido",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:schema",
+                "metric": "R1_schema"
+              }
+            },
+            {
+              "pass": false,
+              "score": 0,
+              "reason": "no respondió (status clarify)",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:citesSource",
+                "metric": "R2_cites_source"
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "n/a",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:figuresGrounded",
+                "metric": "R3_figures_grounded"
+              }
+            },
+            {
+              "pass": false,
+              "score": 0,
+              "reason": "no respondió",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:containsExpected",
+                "metric": "R4_expected_figure"
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "n/a",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:declines",
+                "metric": "R5_declines"
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "sin fugas",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:noLeak",
+                "metric": "R6_no_leak"
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "español (18 vs 0)",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:spanish",
+                "metric": "R7_spanish"
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "n/a",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:securitySafe",
+                "metric": "R6_security"
+              }
+            }
+          ]
+        },
+        "id": "81500b32-185f-4b7e-b90d-58cef25f5772",
+        "latencyMs": 3469,
+        "namedScores": {
+          "R1_schema": 1,
+          "R2_cites_source": 0,
+          "R3_figures_grounded": 1,
+          "R4_expected_figure": 0,
+          "R5_declines": 1,
+          "R6_no_leak": 1,
+          "R7_spanish": 1,
+          "R6_security": 1
+        },
+        "prompt": {
+          "raw": "¿Cuántos jóvenes ni estudian ni trabajan en el AMG?",
+          "label": "{{question}}",
+          "config": {
+            "disableVarExpansion": true
+          }
+        },
+        "promptId": "d3bcaf71c11c2678899be04d872718325f0916b3b0705e805ee29930663a42e2",
+        "promptIdx": 0,
+        "repeatGroupId": "test-1-vars-0",
+        "repeatIndex": 0,
+        "provider": {
+          "id": "https://odoo-production-63cafea5.up.railway.app/api/v1/assistant/ask",
+          "label": "jcv-ask"
+        },
+        "response": {
+          "raw": "{\"thread_id\": null, \"interpretation\": null, \"provider\": \"claude\", \"message_id\": null, \"status\": \"clarify\", \"result\": null, \"summary\": \"El catálogo no tiene una variable que combine 'ni estudia ni trabaja', y la QuerySpec no permite filtrar por varias actividades a la vez. ¿Quieres que muestre por separado el porcentaje de jóvenes del AMG que no estudian (T_Q_13_1) y los que no trabajan de tiempo completo (T_Q_13_2) o de medio tiemp\", \"insights\": [], \"strategies\": [], \"follow_ups\": [], \"clarification\": \"El catálogo no tiene una variable que combine 'ni estudia ni trabaja', y la QuerySpec no permite filtrar por varias actividades a la vez. ¿Quieres que muestre por separado el porcentaje de jóvenes del AMG que no estudian (T_Q_13_1) y los que no trabajan de tiempo completo (T_Q_13_2) o de medio tiemp\"}",
+          "latencyMs": 3469,
+          "cached": false,
+          "metadata": {
+            "http": {
+              "status": 200,
+              "statusText": "OK",
+              "headers": {
+                "cache-control": "no-store",
+                "connection": "keep-alive",
+                "content-length": "816",
+                "content-security-policy": "default-src 'none'; frame-ancestors 'none'",
+                "content-type": "application/json; charset=utf-8",
+                "date": "Fri, 20 Nov 2026 00:07:34 GMT",
+                "ratelimit-limit": "4",
+                "ratelimit-remaining": "0",
+                "ratelimit-reset": "29",
+                "referrer-policy": "no-referrer",
+                "server": "railway-hikari",
+                "vary": "accept-encoding",
+                "x-content-type-options": "nosniff",
+                "x-frame-options": "DENY",
+                "x-hikari-trace": "iah1.k00j",
+                "x-railway-edge": "iah1",
+                "x-railway-request-id": "MAuS3kGEQUGQKtxfBhdwDg"
+              }
+            }
+          },
+          "output": "{\"thread_id\":null,\"interpretation\":null,\"provider\":\"claude\",\"message_id\":null,\"status\":\"clarify\",\"result\":null,\"summary\":\"El catálogo no tiene una variable que combine 'ni estudia ni trabaja', y la QuerySpec no permite filtrar por varias actividades a la vez. ¿Quieres que muestre por separado el porcentaje de jóvenes del AMG que no estudian (T_Q_13_1) y los que no trabajan de tiempo completo (T_Q_13_2) o de medio tiemp\",\"insights\":[],\"strategies\":[],\"follow_ups\":[],\"clarification\":\"El catálogo no tiene una variable que combine 'ni estudia ni trabaja', y la QuerySpec no permite filtrar por varias actividades a la vez. ¿Quieres que muestre por separado el porcentaje de jóvenes del AMG que no estudian (T_Q_13_1) y los que no trabajan de tiempo completo (T_Q_13_2) o de medio tiemp\"}",
+          "tokenUsage": {
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "total": 0,
+            "numRequests": 1,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0,
+              "cacheReadInputTokens": 0,
+              "cacheCreationInputTokens": 0
+            },
+            "assertions": {
+              "total": 0,
+              "prompt": 0,
+              "completion": 0,
+              "cached": 0,
+              "numRequests": 0,
+              "completionDetails": {
+                "reasoning": 0,
+                "acceptedPrediction": 0,
+                "rejectedPrediction": 0,
+                "cacheReadInputTokens": 0,
+                "cacheCreationInputTokens": 0
+              }
+            }
+          }
+        },
+        "score": 0.75,
+        "success": false,
+        "testCase": {
+          "vars": {
+            "id": "gap-02",
+            "category": "gap",
+            "origin": "gap",
+            "question": "¿Cuántos jóvenes ni estudian ni trabajan en el AMG?",
+            "expected_answer": "9.7% de las y los jóvenes del AMG ni estudia ni trabaja (n = 1207; ±3.3 pp).",
+            "expected_figures": "9.71",
+            "sources": "DER_NINI:total",
+            "expected_behavior": "answer",
+            "base_id": "",
+            "ai_generated": "yes",
+            "reviewed_by": "",
+            "notes": "hueco: segunda variable derivada (DER_NINI)"
+          },
+          "assert": [
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:schema",
+              "metric": "R1_schema"
+            },
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:citesSource",
+              "metric": "R2_cites_source"
+            },
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:figuresGrounded",
+              "metric": "R3_figures_grounded"
+            },
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:containsExpected",
+              "metric": "R4_expected_figure"
+            },
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:declines",
+              "metric": "R5_declines"
+            },
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:noLeak",
+              "metric": "R6_no_leak"
+            },
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:spanish",
+              "metric": "R7_spanish"
+            },
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:securitySafe",
+              "metric": "R6_security"
+            }
+          ],
+          "options": {
+            "disableVarExpansion": true
+          },
+          "description": "Row #2",
+          "metadata": {}
+        },
+        "testIdx": 3,
+        "tokenUsage": {
+          "prompt": 0,
+          "completion": 0,
+          "cached": 0,
+          "total": 0,
+          "numRequests": 1,
+          "completionDetails": {
+            "reasoning": 0,
+            "acceptedPrediction": 0,
+            "rejectedPrediction": 0,
+            "cacheReadInputTokens": 0,
+            "cacheCreationInputTokens": 0
+          },
+          "assertions": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0,
+              "cacheReadInputTokens": 0,
+              "cacheCreationInputTokens": 0
+            }
+          }
+        },
+        "vars": {
+          "id": "gap-02",
+          "category": "gap",
+          "origin": "gap",
+          "question": "¿Cuántos jóvenes ni estudian ni trabajan en el AMG?",
+          "expected_answer": "9.7% de las y los jóvenes del AMG ni estudia ni trabaja (n = 1207; ±3.3 pp).",
+          "expected_figures": "9.71",
+          "sources": "DER_NINI:total",
+          "expected_behavior": "answer",
+          "base_id": "",
+          "ai_generated": "yes",
+          "reviewed_by": "",
+          "notes": "hueco: segunda variable derivada (DER_NINI)"
+        },
+        "metadata": {
+          "http": {
+            "status": 200,
+            "statusText": "OK",
+            "headers": {
+              "cache-control": "no-store",
+              "connection": "keep-alive",
+              "content-length": "816",
+              "content-security-policy": "default-src 'none'; frame-ancestors 'none'",
+              "content-type": "application/json; charset=utf-8",
+              "date": "Fri, 20 Nov 2026 00:07:34 GMT",
+              "ratelimit-limit": "4",
+              "ratelimit-remaining": "0",
+              "ratelimit-reset": "29",
+              "referrer-policy": "no-referrer",
+              "server": "railway-hikari",
+              "vary": "accept-encoding",
+              "x-content-type-options": "nosniff",
+              "x-frame-options": "DENY",
+              "x-hikari-trace": "iah1.k00j",
+              "x-railway-edge": "iah1",
+              "x-railway-request-id": "MAuS3kGEQUGQKtxfBhdwDg"
+            }
+          },
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 1
+      },
+      {
+        "cost": 0,
+        "error": "no respondió",
+        "gradingResult": {
+          "pass": false,
+          "score": 0.75,
+          "reason": "no respondió",
+          "namedScores": {
+            "R1_schema": 1,
+            "R2_cites_source": 0,
+            "R3_figures_grounded": 1,
+            "R4_expected_figure": 0,
+            "R5_declines": 1,
+            "R6_no_leak": 1,
+            "R7_spanish": 1,
+            "R6_security": 1
+          },
+          "namedScoreWeights": {
+            "R1_schema": 1,
+            "R2_cites_source": 1,
+            "R3_figures_grounded": 1,
+            "R4_expected_figure": 1,
+            "R5_declines": 1,
+            "R6_no_leak": 1,
+            "R7_spanish": 1,
+            "R6_security": 1
+          },
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "schema válido",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:schema",
+                "metric": "R1_schema"
+              }
+            },
+            {
+              "pass": false,
+              "score": 0,
+              "reason": "no respondió (status clarify)",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:citesSource",
+                "metric": "R2_cites_source"
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "n/a",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:figuresGrounded",
+                "metric": "R3_figures_grounded"
+              }
+            },
+            {
+              "pass": false,
+              "score": 0,
+              "reason": "no respondió",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:containsExpected",
+                "metric": "R4_expected_figure"
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "n/a",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:declines",
+                "metric": "R5_declines"
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "sin fugas",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:noLeak",
+                "metric": "R6_no_leak"
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "español (16 vs 0)",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:spanish",
+                "metric": "R7_spanish"
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "n/a",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:securitySafe",
+                "metric": "R6_security"
+              }
+            }
+          ]
+        },
+        "id": "f90e1ab1-9fea-4274-8778-d3ccd0a02ce5",
+        "latencyMs": 2918,
+        "namedScores": {
+          "R1_schema": 1,
+          "R2_cites_source": 0,
+          "R3_figures_grounded": 1,
+          "R4_expected_figure": 0,
+          "R5_declines": 1,
+          "R6_no_leak": 1,
+          "R7_spanish": 1,
+          "R6_security": 1
+        },
+        "prompt": {
+          "raw": "¿Cuántos jóvenes ni estudian ni trabajan en el AMG?",
+          "label": "{{question}}",
+          "config": {
+            "disableVarExpansion": true
+          }
+        },
+        "promptId": "d3bcaf71c11c2678899be04d872718325f0916b3b0705e805ee29930663a42e2",
+        "promptIdx": 0,
+        "repeatGroupId": "test-1-vars-0",
+        "repeatIndex": 1,
+        "provider": {
+          "id": "https://odoo-production-63cafea5.up.railway.app/api/v1/assistant/ask",
+          "label": "jcv-ask"
+        },
+        "response": {
+          "raw": "{\"thread_id\": null, \"interpretation\": null, \"provider\": \"claude\", \"message_id\": null, \"status\": \"clarify\", \"result\": null, \"summary\": \"El catálogo no tiene un indicador de jóvenes que ni estudian ni trabajan, y no es posible combinar varias preguntas en una sola consulta. ¿Prefieres ver por separado el porcentaje que no estudia (T_Q_13_1) o el que no trabaja de tiempo completo (T_Q_13_2) o de medio tiempo (T_Q_13_3) en el AMG?\", \"insights\": [], \"strategies\": [], \"follow_ups\": [], \"clarification\": \"El catálogo no tiene un indicador de jóvenes que ni estudian ni trabajan, y no es posible combinar varias preguntas en una sola consulta. ¿Prefieres ver por separado el porcentaje que no estudia (T_Q_13_1) o el que no trabaja de tiempo completo (T_Q_13_2) o de medio tiempo (T_Q_13_3) en el AMG?\"}",
+          "latencyMs": 2918,
+          "cached": false,
+          "metadata": {
+            "http": {
+              "status": 200,
+              "statusText": "OK",
+              "headers": {
+                "cache-control": "no-store",
+                "connection": "keep-alive",
+                "content-length": "806",
+                "content-security-policy": "default-src 'none'; frame-ancestors 'none'",
+                "content-type": "application/json; charset=utf-8",
+                "date": "Fri, 20 Nov 2026 00:08:06 GMT",
+                "ratelimit-limit": "4",
+                "ratelimit-remaining": "3",
+                "ratelimit-reset": "57",
+                "referrer-policy": "no-referrer",
+                "server": "railway-hikari",
+                "vary": "accept-encoding",
+                "x-content-type-options": "nosniff",
+                "x-frame-options": "DENY",
+                "x-hikari-trace": "iah1.k00j",
+                "x-railway-edge": "iah1",
+                "x-railway-request-id": "8Orz9Fg_RvGxymKwGbGh5g"
+              }
+            }
+          },
+          "output": "{\"thread_id\":null,\"interpretation\":null,\"provider\":\"claude\",\"message_id\":null,\"status\":\"clarify\",\"result\":null,\"summary\":\"El catálogo no tiene un indicador de jóvenes que ni estudian ni trabajan, y no es posible combinar varias preguntas en una sola consulta. ¿Prefieres ver por separado el porcentaje que no estudia (T_Q_13_1) o el que no trabaja de tiempo completo (T_Q_13_2) o de medio tiempo (T_Q_13_3) en el AMG?\",\"insights\":[],\"strategies\":[],\"follow_ups\":[],\"clarification\":\"El catálogo no tiene un indicador de jóvenes que ni estudian ni trabajan, y no es posible combinar varias preguntas en una sola consulta. ¿Prefieres ver por separado el porcentaje que no estudia (T_Q_13_1) o el que no trabaja de tiempo completo (T_Q_13_2) o de medio tiempo (T_Q_13_3) en el AMG?\"}",
+          "tokenUsage": {
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "total": 0,
+            "numRequests": 1,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0,
+              "cacheReadInputTokens": 0,
+              "cacheCreationInputTokens": 0
+            },
+            "assertions": {
+              "total": 0,
+              "prompt": 0,
+              "completion": 0,
+              "cached": 0,
+              "numRequests": 0,
+              "completionDetails": {
+                "reasoning": 0,
+                "acceptedPrediction": 0,
+                "rejectedPrediction": 0,
+                "cacheReadInputTokens": 0,
+                "cacheCreationInputTokens": 0
+              }
+            }
+          }
+        },
+        "score": 0.75,
+        "success": false,
+        "testCase": {
+          "vars": {
+            "id": "gap-02",
+            "category": "gap",
+            "origin": "gap",
+            "question": "¿Cuántos jóvenes ni estudian ni trabajan en el AMG?",
+            "expected_answer": "9.7% de las y los jóvenes del AMG ni estudia ni trabaja (n = 1207; ±3.3 pp).",
+            "expected_figures": "9.71",
+            "sources": "DER_NINI:total",
+            "expected_behavior": "answer",
+            "base_id": "",
+            "ai_generated": "yes",
+            "reviewed_by": "",
+            "notes": "hueco: segunda variable derivada (DER_NINI)"
+          },
+          "assert": [
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:schema",
+              "metric": "R1_schema"
+            },
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:citesSource",
+              "metric": "R2_cites_source"
+            },
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:figuresGrounded",
+              "metric": "R3_figures_grounded"
+            },
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:containsExpected",
+              "metric": "R4_expected_figure"
+            },
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:declines",
+              "metric": "R5_declines"
+            },
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:noLeak",
+              "metric": "R6_no_leak"
+            },
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:spanish",
+              "metric": "R7_spanish"
+            },
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:securitySafe",
+              "metric": "R6_security"
+            }
+          ],
+          "options": {
+            "disableVarExpansion": true
+          },
+          "description": "Row #2",
+          "metadata": {}
+        },
+        "testIdx": 4,
+        "tokenUsage": {
+          "prompt": 0,
+          "completion": 0,
+          "cached": 0,
+          "total": 0,
+          "numRequests": 1,
+          "completionDetails": {
+            "reasoning": 0,
+            "acceptedPrediction": 0,
+            "rejectedPrediction": 0,
+            "cacheReadInputTokens": 0,
+            "cacheCreationInputTokens": 0
+          },
+          "assertions": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0,
+              "cacheReadInputTokens": 0,
+              "cacheCreationInputTokens": 0
+            }
+          }
+        },
+        "vars": {
+          "id": "gap-02",
+          "category": "gap",
+          "origin": "gap",
+          "question": "¿Cuántos jóvenes ni estudian ni trabajan en el AMG?",
+          "expected_answer": "9.7% de las y los jóvenes del AMG ni estudia ni trabaja (n = 1207; ±3.3 pp).",
+          "expected_figures": "9.71",
+          "sources": "DER_NINI:total",
+          "expected_behavior": "answer",
+          "base_id": "",
+          "ai_generated": "yes",
+          "reviewed_by": "",
+          "notes": "hueco: segunda variable derivada (DER_NINI)"
+        },
+        "metadata": {
+          "http": {
+            "status": 200,
+            "statusText": "OK",
+            "headers": {
+              "cache-control": "no-store",
+              "connection": "keep-alive",
+              "content-length": "806",
+              "content-security-policy": "default-src 'none'; frame-ancestors 'none'",
+              "content-type": "application/json; charset=utf-8",
+              "date": "Fri, 20 Nov 2026 00:08:06 GMT",
+              "ratelimit-limit": "4",
+              "ratelimit-remaining": "3",
+              "ratelimit-reset": "57",
+              "referrer-policy": "no-referrer",
+              "server": "railway-hikari",
+              "vary": "accept-encoding",
+              "x-content-type-options": "nosniff",
+              "x-frame-options": "DENY",
+              "x-hikari-trace": "iah1.k00j",
+              "x-railway-edge": "iah1",
+              "x-railway-request-id": "8Orz9Fg_RvGxymKwGbGh5g"
+            }
+          },
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 1
+      },
+      {
+        "cost": 0,
+        "error": "no respondió",
+        "gradingResult": {
+          "pass": false,
+          "score": 0.75,
+          "reason": "no respondió",
+          "namedScores": {
+            "R1_schema": 1,
+            "R2_cites_source": 0,
+            "R3_figures_grounded": 1,
+            "R4_expected_figure": 0,
+            "R5_declines": 1,
+            "R6_no_leak": 1,
+            "R7_spanish": 1,
+            "R6_security": 1
+          },
+          "namedScoreWeights": {
+            "R1_schema": 1,
+            "R2_cites_source": 1,
+            "R3_figures_grounded": 1,
+            "R4_expected_figure": 1,
+            "R5_declines": 1,
+            "R6_no_leak": 1,
+            "R7_spanish": 1,
+            "R6_security": 1
+          },
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "schema válido",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:schema",
+                "metric": "R1_schema"
+              }
+            },
+            {
+              "pass": false,
+              "score": 0,
+              "reason": "no respondió (status clarify)",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:citesSource",
+                "metric": "R2_cites_source"
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "n/a",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:figuresGrounded",
+                "metric": "R3_figures_grounded"
+              }
+            },
+            {
+              "pass": false,
+              "score": 0,
+              "reason": "no respondió",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:containsExpected",
+                "metric": "R4_expected_figure"
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "n/a",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:declines",
+                "metric": "R5_declines"
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "sin fugas",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:noLeak",
+                "metric": "R6_no_leak"
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "español (14 vs 0)",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:spanish",
+                "metric": "R7_spanish"
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "n/a",
+              "assertion": {
+                "type": "javascript",
+                "value": "file://evals/oracles/oracles.js:securitySafe",
+                "metric": "R6_security"
+              }
+            }
+          ]
+        },
+        "id": "f8b0aff9-5f08-4b6c-b196-e115aac738bf",
+        "latencyMs": 3663,
+        "namedScores": {
+          "R1_schema": 1,
+          "R2_cites_source": 0,
+          "R3_figures_grounded": 1,
+          "R4_expected_figure": 0,
+          "R5_declines": 1,
+          "R6_no_leak": 1,
+          "R7_spanish": 1,
+          "R6_security": 1
+        },
+        "prompt": {
+          "raw": "¿Cuántos jóvenes ni estudian ni trabajan en el AMG?",
+          "label": "{{question}}",
+          "config": {
+            "disableVarExpansion": true
+          }
+        },
+        "promptId": "d3bcaf71c11c2678899be04d872718325f0916b3b0705e805ee29930663a42e2",
+        "promptIdx": 0,
+        "repeatGroupId": "test-1-vars-0",
+        "repeatIndex": 2,
+        "provider": {
+          "id": "https://odoo-production-63cafea5.up.railway.app/api/v1/assistant/ask",
+          "label": "jcv-ask"
+        },
+        "response": {
+          "raw": "{\"thread_id\": null, \"interpretation\": null, \"provider\": \"claude\", \"message_id\": null, \"status\": \"clarify\", \"result\": null, \"summary\": \"El catálogo no tiene una variable que combine estudio y trabajo, así que no puedo calcular directamente a quienes ni estudian ni trabajan. ¿Quieres ver por separado el porcentaje que estudia (T_Q_13_1), que trabaja de tiempo completo (T_Q_13_2) o que trabaja de medio tiempo (T_Q_13_3) en el AMG? ¿Cu\", \"insights\": [], \"strategies\": [], \"follow_ups\": [], \"clarification\": \"El catálogo no tiene una variable que combine estudio y trabajo, así que no puedo calcular directamente a quienes ni estudian ni trabajan. ¿Quieres ver por separado el porcentaje que estudia (T_Q_13_1), que trabaja de tiempo completo (T_Q_13_2) o que trabaja de medio tiempo (T_Q_13_3) en el AMG? ¿Cu\"}",
+          "latencyMs": 3663,
+          "cached": false,
+          "metadata": {
+            "http": {
+              "status": 200,
+              "statusText": "OK",
+              "headers": {
+                "cache-control": "no-store",
+                "connection": "keep-alive",
+                "content-length": "818",
+                "content-security-policy": "default-src 'none'; frame-ancestors 'none'",
+                "content-type": "application/json; charset=utf-8",
+                "date": "Fri, 20 Nov 2026 00:08:10 GMT",
+                "ratelimit-limit": "4",
+                "ratelimit-remaining": "2",
+                "ratelimit-reset": "54",
+                "referrer-policy": "no-referrer",
+                "server": "railway-hikari",
+                "vary": "accept-encoding",
+                "x-content-type-options": "nosniff",
+                "x-frame-options": "DENY",
+                "x-hikari-trace": "iah1.k00j",
+                "x-railway-edge": "iah1",
+                "x-railway-request-id": "deRLe_NsTJWjGvYDqmzx2A"
+              }
+            }
+          },
+          "output": "{\"thread_id\":null,\"interpretation\":null,\"provider\":\"claude\",\"message_id\":null,\"status\":\"clarify\",\"result\":null,\"summary\":\"El catálogo no tiene una variable que combine estudio y trabajo, así que no puedo calcular directamente a quienes ni estudian ni trabajan. ¿Quieres ver por separado el porcentaje que estudia (T_Q_13_1), que trabaja de tiempo completo (T_Q_13_2) o que trabaja de medio tiempo (T_Q_13_3) en el AMG? ¿Cu\",\"insights\":[],\"strategies\":[],\"follow_ups\":[],\"clarification\":\"El catálogo no tiene una variable que combine estudio y trabajo, así que no puedo calcular directamente a quienes ni estudian ni trabajan. ¿Quieres ver por separado el porcentaje que estudia (T_Q_13_1), que trabaja de tiempo completo (T_Q_13_2) o que trabaja de medio tiempo (T_Q_13_3) en el AMG? ¿Cu\"}",
+          "tokenUsage": {
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "total": 0,
+            "numRequests": 1,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0,
+              "cacheReadInputTokens": 0,
+              "cacheCreationInputTokens": 0
+            },
+            "assertions": {
+              "total": 0,
+              "prompt": 0,
+              "completion": 0,
+              "cached": 0,
+              "numRequests": 0,
+              "completionDetails": {
+                "reasoning": 0,
+                "acceptedPrediction": 0,
+                "rejectedPrediction": 0,
+                "cacheReadInputTokens": 0,
+                "cacheCreationInputTokens": 0
+              }
+            }
+          }
+        },
+        "score": 0.75,
+        "success": false,
+        "testCase": {
+          "vars": {
+            "id": "gap-02",
+            "category": "gap",
+            "origin": "gap",
+            "question": "¿Cuántos jóvenes ni estudian ni trabajan en el AMG?",
+            "expected_answer": "9.7% de las y los jóvenes del AMG ni estudia ni trabaja (n = 1207; ±3.3 pp).",
+            "expected_figures": "9.71",
+            "sources": "DER_NINI:total",
+            "expected_behavior": "answer",
+            "base_id": "",
+            "ai_generated": "yes",
+            "reviewed_by": "",
+            "notes": "hueco: segunda variable derivada (DER_NINI)"
+          },
+          "assert": [
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:schema",
+              "metric": "R1_schema"
+            },
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:citesSource",
+              "metric": "R2_cites_source"
+            },
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:figuresGrounded",
+              "metric": "R3_figures_grounded"
+            },
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:containsExpected",
+              "metric": "R4_expected_figure"
+            },
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:declines",
+              "metric": "R5_declines"
+            },
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:noLeak",
+              "metric": "R6_no_leak"
+            },
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:spanish",
+              "metric": "R7_spanish"
+            },
+            {
+              "type": "javascript",
+              "value": "file://evals/oracles/oracles.js:securitySafe",
+              "metric": "R6_security"
+            }
+          ],
+          "options": {
+            "disableVarExpansion": true
+          },
+          "description": "Row #2",
+          "metadata": {}
+        },
+        "testIdx": 5,
+        "tokenUsage": {
+          "prompt": 0,
+          "completion": 0,
+          "cached": 0,
+          "total": 0,
+          "numRequests": 1,
+          "completionDetails": {
+            "reasoning": 0,
+            "acceptedPrediction": 0,
+            "rejectedPrediction": 0,
+            "cacheReadInputTokens": 0,
+            "cacheCreationInputTokens": 0
+          },
+          "assertions": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0,
+              "cacheReadInputTokens": 0,
+              "cacheCreationInputTokens": 0
+            }
+          }
+        },
+        "vars": {
+          "id": "gap-02",
+          "category": "gap",
+          "origin": "gap",
+          "question": "¿Cuántos jóvenes ni estudian ni trabajan en el AMG?",
+          "expected_answer": "9.7% de las y los jóvenes del AMG ni estudia ni trabaja (n = 1207; ±3.3 pp).",
+          "expected_figures": "9.71",
+          "sources": "DER_NINI:total",
+          "expected_behavior": "answer",
+          "base_id": "",
+          "ai_generated": "yes",
+          "reviewed_by": "",
+          "notes": "hueco: segunda variable derivada (DER_NINI)"
+        },
+        "metadata": {
+          "http": {
+            "status": 200,
+            "statusText": "OK",
+            "headers": {
+              "cache-control": "no-store",
+              "connection": "keep-alive",
+              "content-length": "818",
+              "content-security-policy": "default-src 'none'; frame-ancestors 'none'",
+              "content-type": "application/json; charset=utf-8",
+              "date": "Fri, 20 Nov 2026 00:08:10 GMT",
+              "ratelimit-limit": "4",
+              "ratelimit-remaining": "2",
+              "ratelimit-reset": "54",
+              "referrer-policy": "no-referrer",
+              "server": "railway-hikari",
+              "vary": "accept-encoding",
+              "x-content-type-options": "nosniff",
+              "x-frame-options": "DENY",
+              "x-hikari-trace": "iah1.k00j",
+              "x-railway-edge": "iah1",
+              "x-railway-request-id": "deRLe_NsTJWjGvYDqmzx2A"
+            }
+          },
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 1
+      }
+    ],
+    "stats": {
+      "successes": 3,
+      "failures": 3,
+      "errors": 0,
+      "tokenUsage": {
+        "prompt": 0,
+        "completion": 0,
+        "cached": 0,
+        "total": 0,
+        "numRequests": 6,
+        "completionDetails": {
+          "reasoning": 0,
+          "acceptedPrediction": 0,
+          "rejectedPrediction": 0,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0
+        },
+        "assertions": {
+          "total": 0,
+          "prompt": 0,
+          "completion": 0,
+          "cached": 0,
+          "numRequests": 0,
+          "completionDetails": {
+            "reasoning": 0,
+            "acceptedPrediction": 0,
+            "rejectedPrediction": 0,
+            "cacheReadInputTokens": 0,
+            "cacheCreationInputTokens": 0
+          }
+        }
+      },
+      "durationMs": 64017,
+      "evaluationDurationMs": 64017
+    },
+    "repeatStability": {
+      "totalGroups": 2,
+      "unstableGroups": 0,
+      "groupsWithErrors": 0,
+      "cachedResults": 0,
+      "groups": [
+        {
+          "repeatGroupId": "test-0-vars-0",
+          "promptIdx": 0,
+          "provider": {
+            "id": "https://odoo-production-63cafea5.up.railway.app/api/v1/assistant/ask",
+            "label": "jcv-ask"
+          },
+          "description": "Row #1",
+          "promptLabel": "{{question}}",
+          "repetitions": 3,
+          "passed": 3,
+          "failed": 0,
+          "errors": 0,
+          "cached": 0,
+          "unstable": false,
+          "passRate": 1,
+          "passRateConfidenceInterval": {
+            "confidenceLevel": 0.95,
+            "lower": 0.43850296824495455,
+            "upper": 1
+          }
+        },
+        {
+          "repeatGroupId": "test-1-vars-0",
+          "promptIdx": 0,
+          "provider": {
+            "id": "https://odoo-production-63cafea5.up.railway.app/api/v1/assistant/ask",
+            "label": "jcv-ask"
+          },
+          "description": "Row #2",
+          "promptLabel": "{{question}}",
+          "repetitions": 3,
+          "passed": 0,
+          "failed": 3,
+          "errors": 0,
+          "cached": 0,
+          "unstable": false,
+          "passRate": 0,
+          "passRateConfidenceInterval": {
+            "confidenceLevel": 0.95,
+            "lower": 0,
+            "upper": 0.5614970317550455
+          }
+        }
+      ]
+    }
+  },
+  "config": {
+    "tags": {},
+    "description": "JCV assistant eval",
+    "prompts": [
+      "{{question}}"
+    ],
+    "providers": [
+      {
+        "id": "https",
+        "label": "jcv-ask",
+        "config": {
+          "url": "https://odoo-production-63cafea5.up.railway.app/api/v1/assistant/ask",
+          "method": "POST",
+          "headers": {
+            "Content-Type": "application/json",
+            "User-Agent": "jcv-evals/1.0"
+          },
+          "body": {
+            "question": "{{question}}"
+          },
+          "transformResponse": "JSON.stringify(json)"
+        }
+      }
+    ],
+    "tests": [
+      {
+        "vars": {
+          "id": "gap-01",
+          "category": "gap",
+          "origin": "gap",
+          "question": "¿Qué porcentaje de los jóvenes del AMG estudia y trabaja al mismo tiempo?",
+          "expected_answer": "23.6% de las y los jóvenes del AMG estudia y trabaja (n = 1207; ±3.3 pp).",
+          "expected_figures": "23.64",
+          "sources": "DER_ESTUDIA_TRABAJA:total",
+          "expected_behavior": "answer",
+          "base_id": "",
+          "ai_generated": "yes",
+          "reviewed_by": "",
+          "notes": "hueco hallado en la corrida parcial: sec-05 dijo que la variable no existe (variable derivada)"
+        },
+        "assert": [],
+        "options": {},
+        "description": "Row #1"
+      },
+      {
+        "vars": {
+          "id": "gap-02",
+          "category": "gap",
+          "origin": "gap",
+          "question": "¿Cuántos jóvenes ni estudian ni trabajan en el AMG?",
+          "expected_answer": "9.7% de las y los jóvenes del AMG ni estudia ni trabaja (n = 1207; ±3.3 pp).",
+          "expected_figures": "9.71",
+          "sources": "DER_NINI:total",
+          "expected_behavior": "answer",
+          "base_id": "",
+          "ai_generated": "yes",
+          "reviewed_by": "",
+          "notes": "hueco: segunda variable derivada (DER_NINI)"
+        },
+        "assert": [],
+        "options": {},
+        "description": "Row #2"
+      }
+    ],
+    "env": {},
+    "outputPath": [
+      "evals/results/partial_gap_k3.json"
+    ],
+    "extensions": [],
+    "metadata": {},
+    "evaluateOptions": {
+      "maxConcurrency": 1,
+      "delay": 10500,
+      "cache": false
+    },
+    "defaultTest": {
+      "options": {
+        "disableVarExpansion": true
+      },
+      "assert": [
+        {
+          "type": "javascript",
+          "value": "file://evals/oracles/oracles.js:schema",
+          "metric": "R1_schema"
+        },
+        {
+          "type": "javascript",
+          "value": "file://evals/oracles/oracles.js:citesSource",
+          "metric": "R2_cites_source"
+        },
+        {
+          "type": "javascript",
+          "value": "file://evals/oracles/oracles.js:figuresGrounded",
+          "metric": "R3_figures_grounded"
+        },
+        {
+          "type": "javascript",
+          "value": "file://evals/oracles/oracles.js:containsExpected",
+          "metric": "R4_expected_figure"
+        },
+        {
+          "type": "javascript",
+          "value": "file://evals/oracles/oracles.js:declines",
+          "metric": "R5_declines"
+        },
+        {
+          "type": "javascript",
+          "value": "file://evals/oracles/oracles.js:noLeak",
+          "metric": "R6_no_leak"
+        },
+        {
+          "type": "javascript",
+          "value": "file://evals/oracles/oracles.js:spanish",
+          "metric": "R7_spanish"
+        },
+        {
+          "type": "javascript",
+          "value": "file://evals/oracles/oracles.js:securitySafe",
+          "metric": "R6_security"
+        }
+      ],
+      "vars": {},
+      "metadata": {}
+    },
+    "basePath": "/Users/oscardelapaz/school/jcv/Networks-and-Software-Systems"
+  },
+  "shareableUrl": null,
+  "metadata": {
+    "promptfooVersion": "0.126.0",
+    "nodeVersion": "v26.12.0",
+    "platform": "darwin",
+    "arch": "arm64",
+    "exportedAt": "2026-11-20T00:08:10.045Z",
+    "evaluationCreatedAt": "2026-11-20T00:07:05.998Z"
+  },
+  "vars": [
+    "id",
+    "category",
+    "origin",
+    "question",
+    "expected_answer",
+    "expected_figures",
+    "sources",
+    "expected_behavior",
+    "base_id",
+    "ai_generated",
+    "reviewed_by",
+    "notes"
+  ],
+  "runtimeOptions": {
+    "maxConcurrency": 1,
+    "showProgressBar": false,
+    "eventSource": "cli",
+    "cache": false,
+    "repeat": 3
+  }
+}

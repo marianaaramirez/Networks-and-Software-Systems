@@ -1,0 +1,16 @@
+{
+  "name": "jcv-evals",
+  "private": true,
+  "description": "Eval set del asistente de IA de Jalisco Cómo Vamos",
+  "scripts": {
+    "corpus": "python3 evals/scripts/build_corpus.py",
+    "cases": "python3 evals/scripts/build_cases.py",
+    "coverage": "python3 evals/scripts/coverage.py --base-only > evals/results/coverage_before.md && python3 evals/scripts/coverage.py > evals/results/coverage_after.md",
+    "test:oracles": "node --test evals/oracles/oracles.test.js",
+    "eval:smoke": "PROMPTFOO_DISABLE_TELEMETRY=1 promptfoo eval -c promptfooconfig.yaml -t evals/smoke.csv --repeat 1 -o evals/results/smoke.json",
+    "eval:baseline": "PROMPTFOO_DISABLE_TELEMETRY=1 promptfoo eval -c promptfooconfig.yaml --repeat 3 -o evals/results/baseline.json && python3 evals/scripts/report.py evals/results/baseline.json > evals/results/baseline.md"
+  },
+  "devDependencies": {
+    "promptfoo": "0.126.0"
+  }
+}

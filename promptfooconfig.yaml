@@ -1,0 +1,53 @@
+# Eval del asistente de Jalisco Cómo Vamos (/api/v1/assistant/ask, Claude en Railway).
+# Desarrollo:  npm run eval:smoke     (5 casos, k = 1)
+# Baseline:    npm run eval:baseline  (todo evals/cases.csv, k = 3)
+description: JCV assistant eval
+prompts:
+  - "{{question}}"
+providers:
+  - id: https
+    label: jcv-ask
+    config:
+      url: "{{env.JCV_API | default('https://odoo-production-63cafea5.up.railway.app/api/v1')}}/assistant/ask"
+      method: POST
+      headers:
+        Content-Type: application/json
+        User-Agent: jcv-evals/1.0
+      body:
+        question: "{{question}}"
+      # Se conserva la respuesta completa: los oráculos leen status, result.spec y la narrativa.
+      transformResponse: "JSON.stringify(json)"
+tests: file://evals/cases.csv
+defaultTest:
+  options:
+    disableVarExpansion: true
+  assert:
+    - type: javascript
+      value: file://evals/oracles/oracles.js:schema
+      metric: R1_schema
+    - type: javascript
+      value: file://evals/oracles/oracles.js:citesSource
+      metric: R2_cites_source
+    - type: javascript
+      value: file://evals/oracles/oracles.js:figuresGrounded
+      metric: R3_figures_grounded
+    - type: javascript
+      value: file://evals/oracles/oracles.js:containsExpected
+      metric: R4_expected_figure
+    - type: javascript
+      value: file://evals/oracles/oracles.js:declines
+      metric: R5_declines
+    - type: javascript
+      value: file://evals/oracles/oracles.js:noLeak
+      metric: R6_no_leak
+    - type: javascript
+      value: file://evals/oracles/oracles.js:spanish
+      metric: R7_spanish
+    - type: javascript
+      value: file://evals/oracles/oracles.js:securitySafe
+      metric: R6_security
+evaluateOptions:
+  # El API acepta 6 preguntas por minuto por IP (rate group "assistant"): 1 a la vez, cada 10.5 s.
+  maxConcurrency: 1
+  delay: 10500
+  cache: false

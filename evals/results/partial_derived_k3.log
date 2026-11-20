@@ -1,0 +1,20 @@
+Cache is disabled.
+Starting evaluation eval-DwQ-2026-11-19T23:47:33
+Running 54 test cases (up to 1 at a time)...
+✓ Eval complete (ID: eval-DwQ-2026-11-19T23:47:33)
+
+» View results: promptfoo view
+» Share with your team: https://promptfoo.app
+» Feedback: https://promptfoo.dev/feedback
+
+
+Repeat stability:
+  18 repeated groups; 0 unstable
+
+Results:
+  ✓ 54 passed (100%)
+  0 failed (0%)
+  0 errors (0%)
+Duration: 19m 2s (concurrency: 1)
+
+Writing output to evals/results/partial_derived_k3.json
